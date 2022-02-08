@@ -23,7 +23,7 @@ var swiper3 = new Swiper(".big-slider", {
         spaceBetween: 0,
 
         navigation: {
-          naxtEl: '.swiper-button-next',
+          nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
           
         },
