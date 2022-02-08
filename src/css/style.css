@@ -126,7 +126,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .about-us-block .about-us-right .about-us-tabs .about-us-tab-items .selected { color: #000000; }
 
-.about-us-block .about-us-right .about-us-tabs .about-us-tab-items .selected::before { content: ''; position: absolute; left: -50%; top: 20px; width: 120px; height: 2px; background-color: #000000; }
+.about-us-block .about-us-right .about-us-tabs .about-us-tab-items .selected::before { content: ''; position: absolute; left: -20px; right: -20px; top: 100%; margin-top: 9px; height: 2px; background-color: #000000; }
 
 .about-us-block .about-us-right .about-us-tabs .about-us-body .about-us-section { padding-left: 25px; }
 

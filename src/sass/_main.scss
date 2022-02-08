@@ -198,9 +198,10 @@
                     &::before {
                         content: '';
                         position: absolute;
-                        left: -50%;
-                        top: 20px;
-                        width: 120px;
+                        left: -20px;
+                        right: -20px;
+                        top: 100%;
+                        margin-top: 9px;
                         height: 2px;                
                         background-color: $black;  
 
