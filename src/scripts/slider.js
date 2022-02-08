@@ -34,7 +34,7 @@ var swiper3 = new Swiper(".big-slider", {
           el: ".swiper-pagination",
           clickable: true,
           renderBullet: function (index, className) {
-            return '<span class"' + className + '">' + "0" + (index + 1) + '</span>';
+            return '<span class ="' + className + '">' + "0" + (index + 1) + '</span>';
           },
         },
       });      
