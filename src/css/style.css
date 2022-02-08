@@ -162,7 +162,9 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .top-slider .big-slider .swiper-pagination { display: block; width: 100px; top: 800px; }
 
-.top-slider .big-slider .swiper-pagination span { padding-left: 62px; display: block; color: #ffffff; font-size: 12px; font-weight: 900; letter-spacing: 3px; width: 40px; height: 6px; background-color: #ffffff; margin: 0 8px; border-radius: 0; margin-bottom: 40px; }
+.top-slider .big-slider .swiper-pagination span { position: relative; padding-left: 62px; display: block; color: #ffffff; font-size: 12px; font-weight: 900; letter-spacing: 3px; margin: 0 8px; margin-bottom: 40px; background-color: rgba(255, 206, 206, 0); }
+
+.top-slider .big-slider .swiper-pagination span::after { content: ''; position: absolute; left: 0; top: 50%; width: 40px; height: 6px; background-color: #ffffff; border-radius: 0; }
 
 .block-popular { position: relative; margin-bottom: 310px; padding-top: 495px; padding-left: 65px; }
 
