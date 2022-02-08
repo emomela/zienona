@@ -8,12 +8,12 @@
     &:before {
                     content: '';
                     position: absolute;
-                    background: radial-gradient(circle, rgba(255,206,206,0.8) 0%, rgba(255,255,255,0) 55%);
-                    height: 800px;
-                    width: 800px;
+                    background: radial-gradient(circle, rgb(255, 147, 147, 0.9) 0%, rgba(255,255,255,0) 35%);
+                    height: 2000px;
+                    width: 2000px;
                     border-radius: 50%;
-                    top: -250px;
-                    right: -200px;
+                    top: -800px;
+                    right: -1020px;
                     z-index: -1;
                 }
 
@@ -157,12 +157,12 @@
         &:before {
                     content: '';
                     position: absolute;
-                    background: radial-gradient(circle, rgba(255,206,206,0.6) 0%, rgba(255,255,255,0) 36%);
-                    height: 600px;
-                    width: 600px;
+                    background: radial-gradient(circle, rgba(255,206,206,1) 0%, rgba(255,255,255,0) 36%);
+                    height: 1200px;
+                    width: 1200px;
                     border-radius: 50%;
-                    top: -50px;
-                    left: -150px;
+                    top: -335px;
+                    left: -410px;
                     z-index: -1;
                 }
 
@@ -392,6 +392,18 @@
     padding-top: 495px;
     padding-left: 65px;
 
+    &::before {
+        content: '';
+        position: absolute;
+        background: radial-gradient(circle, rgba(177, 202, 182, 0.9) 1%, rgba(255,255,255,0) 36%);
+        height: 1800px;
+        width: 1800px;
+        border-radius: 50%;
+        top: -200px;
+        left: -700px;
+        z-index: -1;
+    }
+
 
     .block-popular-title {
         position: absolute;
@@ -411,7 +423,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: url(../images/back.png);
+        background: url(./images/leaf.png);
     }
 
     .swiper-popular{

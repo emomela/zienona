@@ -64,7 +64,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .insta-block { width: 1690px; margin: 0 auto; padding-bottom: 135px; position: relative; }
 
-.insta-block:before { content: ''; position: absolute; background: -o-radial-gradient(circle, rgba(255, 206, 206, 0.8) 0%, rgba(255, 255, 255, 0) 55%); background: radial-gradient(circle, rgba(255, 206, 206, 0.8) 0%, rgba(255, 255, 255, 0) 55%); height: 800px; width: 800px; border-radius: 50%; top: -250px; right: -200px; z-index: -1; }
+.insta-block:before { content: ''; position: absolute; background: -o-radial-gradient(circle, #ff9393 1%, rgba(255, 255, 255, 0) 35%); background: radial-gradient(circle, #ff9393 1%, rgba(255, 255, 255, 0) 35%); height: 1800px; width: 1800px; border-radius: 50%; top: -600px; right: -900px; z-index: -1; }
 
 .insta-block .insta-block-top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
@@ -114,7 +114,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .about-us-block .about-us-right { padding: 90px 350px 110px 165px; position: relative; }
 
-.about-us-block .about-us-right:before { content: ''; position: absolute; background: -o-radial-gradient(circle, rgba(255, 206, 206, 0.6) 0%, rgba(255, 255, 255, 0) 36%); background: radial-gradient(circle, rgba(255, 206, 206, 0.6) 0%, rgba(255, 255, 255, 0) 36%); height: 600px; width: 600px; border-radius: 50%; top: -50px; left: -150px; z-index: -1; }
+.about-us-block .about-us-right:before { content: ''; position: absolute; background: -o-radial-gradient(circle, #ffcece 0%, rgba(255, 255, 255, 0) 36%); background: radial-gradient(circle, #ffcece 0%, rgba(255, 255, 255, 0) 36%); height: 1200px; width: 1200px; border-radius: 50%; top: -335px; left: -410px; z-index: -1; }
 
 .about-us-block .about-us-right .about-us-tabs .about-us-tab-items { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-bottom: 140px; }
 
@@ -168,9 +168,11 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .block-popular { position: relative; margin-bottom: 310px; padding-top: 495px; padding-left: 65px; }
 
+.block-popular::before { content: ''; position: absolute; background: -o-radial-gradient(circle, rgba(177, 202, 182, 0.9) 1%, rgba(255, 255, 255, 0) 36%); background: radial-gradient(circle, rgba(177, 202, 182, 0.9) 1%, rgba(255, 255, 255, 0) 36%); height: 1800px; width: 1800px; border-radius: 50%; top: -200px; left: -700px; z-index: -1; }
+
 .block-popular .block-popular-title { position: absolute; top: 0; right: 0; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); text-transform: lowercase; font-weight: 900; font-size: 30px; letter-spacing: 5px; color: #000000; }
 
-.block-popular .block-popular-leaf { position: absolute; top: 0; left: 0; background: url(../images/back.png); }
+.block-popular .block-popular-leaf { position: absolute; top: 0; left: 0; background: url(./images/leaf.png); }
 
 .block-popular .swiper-popular { position: relative; overflow: hidden; }
 
