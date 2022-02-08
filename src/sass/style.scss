@@ -10,6 +10,11 @@ html {
     font-family: $basefont, sans-serif;
 }
 
+.body-wrapper {
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
 
 @import "ui";
 @import "header";
