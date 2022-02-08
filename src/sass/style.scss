@@ -1,0 +1,17 @@
+@import "vars";
+@import "fonts";
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: $basefont, sans-serif;
+}
+
+
+@import "ui";
+@import "header";
+@import "main";
+@import "footer";

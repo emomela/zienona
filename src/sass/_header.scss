@@ -1,0 +1,63 @@
+.header {
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+    z-index: 99;
+
+
+    .h-wrap {
+        position: absolute;
+        top:0;  
+        width: 100%;
+         display: flex;
+         justify-content: space-between;
+                  
+         align-items: center;
+         padding-top: 35px;
+         padding-right: 115px;
+         padding-left: 60px;
+         padding-bottom: 35px;
+
+        .h-left {
+            display: flex;
+
+            .h-logo {
+                 margin-right: 70px;
+            }
+
+            .h-nav {
+                 display: flex;
+                 align-items: center;
+
+                 ul {
+                     display: flex;
+                     align-items: center;
+                     li { 
+                        margin-right: 30px;         
+                        a {
+                            font-weight: 400;
+                            font-size: 18px;
+                            color: $black;                          
+                        }      
+                    
+                    }
+                }
+            }
+        }
+
+         .h-right {
+            a {
+             margin-left: 25px;
+             color: $black;
+             font-size: 21px;
+             font-weight: 900;
+        }
+    }
+
+
+    }
+
+    
+
+
+}
