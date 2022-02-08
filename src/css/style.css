@@ -158,6 +158,12 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .top-slider .big-slider .top-swiper-count { position: absolute; top: 77%; left: 300px; z-index: 11; color: #ffffff; font-size: 35px; font-weight: 900; letter-spacing: 5px; }
 
+.top-slider .big-slider .swiper-pagination { display: block; width: 85px; top: 800px; }
+
+.top-slider .big-slider .swiper-pagination span { padding-left: 62px; display: block; color: #ffffff; font-size: 12px; font-weight: 900; letter-spacing: 3px; position: relative; }
+
+.top-slider .big-slider .swiper-pagination::after { content: ''; position: absolute; width: 40px; height: 6px; background-color: #ffffff; vertical-align: middle; margin: 0 8px; border-radius: 0; left: 0; }
+
 .block-popular { position: relative; margin-bottom: 310px; padding-top: 495px; padding-left: 65px; }
 
 .block-popular .block-popular-title { position: absolute; top: 0; right: 0; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); text-transform: lowercase; font-weight: 900; font-size: 30px; letter-spacing: 5px; color: #000000; }
