@@ -64,7 +64,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .insta-block { width: 1690px; margin: 0 auto; padding-bottom: 135px; position: relative; }
 
-.insta-block:before { content: ''; position: absolute; background: -o-radial-gradient(circle, #ff9393 1%, rgba(255, 255, 255, 0) 35%); background: radial-gradient(circle, #ff9393 1%, rgba(255, 255, 255, 0) 35%); height: 1800px; width: 1800px; border-radius: 50%; top: -600px; right: -900px; z-index: -1; }
+.insta-block:before { content: ''; position: absolute; background: -o-radial-gradient(circle, rgba(255, 147, 147, 0.9) 0%, rgba(255, 255, 255, 0) 35%); background: radial-gradient(circle, rgba(255, 147, 147, 0.9) 0%, rgba(255, 255, 255, 0) 35%); height: 2000px; width: 2000px; border-radius: 50%; top: -800px; right: -1020px; z-index: -1; }
 
 .insta-block .insta-block-top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
@@ -106,6 +106,8 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .about-us-block .about-us-left .foto-slider .swiper-wrapper .swiper-slide { max-width: 100%; }
 
+.about-us-block .about-us-left .foto-slider .swiper-wrapper .swiper-slide img { width: 100%; }
+
 .about-us-block .about-us-left .foto-slider .swiper-pagination { bottom: 30px; }
 
 .about-us-block .about-us-left .foto-slider .swiper-pagination-bullet { width: 6px; height: 6px; background-color: #ffffff; vertical-align: middle; margin: 0 8px; }
@@ -118,13 +120,17 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .about-us-block .about-us-right .about-us-tabs .about-us-tab-items { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-bottom: 140px; }
 
-.about-us-block .about-us-right .about-us-tabs .about-us-tab-items .about-us-tab-item { font-size: 12px; font-weight: 900; letter-spacing: 3px; color: #696970; text-transform: uppercase; }
+.about-us-block .about-us-right .about-us-tabs .about-us-tab-items .about-us-tab-item { position: relative; font-size: 12px; font-weight: 900; letter-spacing: 3px; color: #696970; text-transform: uppercase; }
 
 .about-us-block .about-us-right .about-us-tabs .about-us-tab-items .about-us-tab-item:hover { color: #000000; }
 
+.about-us-block .about-us-right .about-us-tabs .about-us-tab-items .selected { color: #000000; }
+
+.about-us-block .about-us-right .about-us-tabs .about-us-tab-items .selected::before { content: ''; position: absolute; left: -50%; top: 20px; width: 120px; height: 2px; background-color: #000000; }
+
 .about-us-block .about-us-right .about-us-tabs .about-us-body .about-us-section { padding-left: 25px; }
 
-.about-us-block .about-us-right .about-us-tabs .about-us-body .about-us-section .about-us-block-title { font-size: 60px; font-weight: 900; color: #1a1a1d; margin-bottom: 40px; line-height: 1; }
+.about-us-block .about-us-right .about-us-tabs .about-us-body .about-us-section .about-us-block-title { font-size: 60px; font-weight: 900; color: #1a1a1d; margin-bottom: 25px; line-height: 1; }
 
 .about-us-block .about-us-right .about-us-tabs .about-us-body .about-us-section .about-us-block-descr { font-size: 24px; font-weight: 500; color: #1a1a1d; line-height: 1.5; margin-bottom: 30px; }
 
@@ -168,7 +174,9 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .block-popular { position: relative; margin-bottom: 310px; padding-top: 495px; padding-left: 65px; }
 
-.block-popular::before { content: ''; position: absolute; background: -o-radial-gradient(circle, rgba(177, 202, 182, 0.9) 1%, rgba(255, 255, 255, 0) 36%); background: radial-gradient(circle, rgba(177, 202, 182, 0.9) 1%, rgba(255, 255, 255, 0) 36%); height: 1800px; width: 1800px; border-radius: 50%; top: -200px; left: -700px; z-index: -1; }
+.block-popular::before { content: ''; position: absolute; background: -o-radial-gradient(circle, rgba(177, 202, 182, 0.9) 1%, rgba(255, 255, 255, 0) 36%); background: radial-gradient(circle, rgba(177, 202, 182, 0.9) 1%, rgba(255, 255, 255, 0) 36%); height: 1800px; width: 1800px; border-radius: 50%; top: -300px; left: -700px; z-index: -3; }
+
+.block-popular::after { content: ''; position: absolute; background-image: url("../images/back.png"); width: 1084px; height: 1418px; top: 20px; left: 0; z-index: -1; }
 
 .block-popular .block-popular-title { position: absolute; top: 0; right: 0; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); text-transform: lowercase; font-weight: 900; font-size: 30px; letter-spacing: 5px; color: #000000; }
 

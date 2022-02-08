@@ -6,15 +6,15 @@
     position: relative;
 
     &:before {
-                    content: '';
-                    position: absolute;
-                    background: radial-gradient(circle, rgb(255, 147, 147, 0.9) 0%, rgba(255,255,255,0) 35%);
-                    height: 2000px;
-                    width: 2000px;
-                    border-radius: 50%;
-                    top: -800px;
-                    right: -1020px;
-                    z-index: -1;
+        content: '';
+        position: absolute;
+        background: radial-gradient(circle, rgba(255, 147, 147, 0.9) 0%, rgba(255,255,255,0) 35%);
+        height: 2000px;
+        width: 2000px;
+        border-radius: 50%;
+        top: -800px;
+        right: -1020px;
+        z-index: -1;
                 }
 
 
@@ -23,6 +23,7 @@
     .insta-block-top {
         display: flex;
         justify-content: space-between;
+
 
 
         .insta-title {
@@ -126,6 +127,10 @@
                 height: 100%;
                 .swiper-slide {
                     max-width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
                     
                 }
             }
@@ -174,6 +179,7 @@
                 margin-bottom: 140px;
 
                 .about-us-tab-item {
+                    position: relative;
                     font-size: 12px;
                     font-weight: 900;
                     letter-spacing: 3px;
@@ -185,16 +191,36 @@
                     }
 
                 }
+
+                .selected {
+                    color: $black;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -50%;
+                        top: 20px;
+                        width: 120px;
+                        height: 2px;                
+                        background-color: $black;  
+
+                    }
+        
+                }
+
+                
+
             }
             .about-us-body {
                 .about-us-section {
                     padding-left: 25px;
+                    
 
                     .about-us-block-title {
                         font-size: 60px;
                         font-weight: 900;
                         color: $gray-active;
-                        margin-bottom: 40px;
+                        margin-bottom: 25px;
                         line-height: 1;
                     }
                     .about-us-block-descr {
@@ -224,7 +250,7 @@
                         font-size: 16px;
                         font-weight: 400;
                         line-height: 1.875;
-                        color: #767679;         
+                        color: #767679;       
 
                     }
                 }
@@ -399,10 +425,23 @@
         height: 1800px;
         width: 1800px;
         border-radius: 50%;
-        top: -200px;
+        top: -300px;
         left: -700px;
-        z-index: -1;
+        z-index: -3;        
     }
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url('../images/back.png');
+        width: 1084px;
+        height: 1418px;         
+        top: 20px;
+        left: 0;
+        z-index: -1;        
+    }
+
+    
 
 
     .block-popular-title {
