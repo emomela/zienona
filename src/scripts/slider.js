@@ -52,12 +52,14 @@ swiper3.on('slideChange', function () {
 
 
 var swiper4 = new Swiper(".swiper-popular", {
-        slidesPerView: 4,
+        slidesPerView: 3.5,
         initialSlide: 0,
+        spaceBetween: 80,
       });
 
       
 var swiper5 = new Swiper(".swiper-news", {
-        slidesPerView: 4,
+        slidesPerView: 3.5,
         initialSlide: 0,
+        spaceBetween: 80,
       });      
