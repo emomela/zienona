@@ -114,7 +114,7 @@
     display: flex;
     justify-content: space-between;
     padding: 120px 50px 95px 115px;
-    margin-bottom: 95px;
+    
     
     .about-us-left {
         width: 650px;
@@ -441,7 +441,7 @@
     
     .block-popular-title {
         position: absolute;
-        top: 0;
+        top: 100px;
         right: 0;
         -webkit-transform: rotate(90deg); 
         transform: rotate(90deg);
@@ -501,7 +501,7 @@
         }
 
         .swiper-slide-info {
-            padding-top: 125px;
+            padding-top: 115px;
 
             .swiper-slide-title {
                 font-size: 30px;
@@ -543,14 +543,14 @@
 .block-news {
     position: relative;
     margin-bottom: 30px;
-    padding-top: 495px;
-    padding-left: 65px;
+    padding-top: 395px;
+    
 
 
     .block-news-title {
         position: absolute;
         top: 60px;
-        left: 0;
+        left: 65px;
         -webkit-transform: rotate(90deg); 
         transform: rotate(90deg);
         text-transform: lowercase;
@@ -562,10 +562,11 @@
 
     .swiper-news{
         position: relative;
-        overflow: hidden;        
+        overflow: hidden;
+        margin-right: 560px;       
 
         .swiper-wrapper {
-            padding-right: 560px;
+            
             
             .swiper-slide {
                 .swiper-slide-pic {
@@ -593,7 +594,7 @@
         }
 
         .swiper-slide-info {
-            padding-top: 125px;
+            padding-top: 115px;
             margin-right: 90px;
             text-align: right;
 
