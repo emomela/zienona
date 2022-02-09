@@ -1,22 +1,22 @@
-@font-face { font-family: 'Raleway'; src: local("Raleway Bold"), local("Raleway-Bold"), url("./fonts/Raleway-Bold.woff2") format("woff2"), url("./fonts/Raleway-Bold.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway Bold"), local("Raleway-Bold"), url("../fonts/Raleway-Bold.woff2") format("woff2"), url("../fonts/Raleway-Bold.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Raleway'; src: local("Raleway Black"), local("Raleway-Black"), url("./fonts/Raleway-Black.woff2") format("woff2"), url("./fonts/Raleway-Black.woff") format("woff"); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway Black"), local("Raleway-Black"), url("../fonts/Raleway-Black.woff2") format("woff2"), url("../fonts/Raleway-Black.woff") format("woff"); font-weight: 900; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Raleway'; src: local("Raleway Thin"), local("Raleway-Thin"), url("./fonts/Raleway-Thin.woff2") format("woff2"), url("./fonts/Raleway-Thin.woff") format("woff"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway Thin"), local("Raleway-Thin"), url("../fonts/Raleway-Thin.woff2") format("woff2"), url("../fonts/Raleway-Thin.woff") format("woff"); font-weight: 100; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Raleway'; src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"), url("./fonts/Raleway-ExtraBold.woff2") format("woff2"), url("./fonts/Raleway-ExtraBold.woff") format("woff"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway ExtraBold"), local("Raleway-ExtraBold"), url("../fonts/Raleway-ExtraBold.woff2") format("woff2"), url("../fonts/Raleway-ExtraBold.woff") format("woff"); font-weight: 800; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Raleway'; src: local("Raleway Light"), local("Raleway-Light"), url("./fonts/Raleway-Light.woff2") format("woff2"), url("./fonts/Raleway-Light.woff") format("woff"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway Light"), local("Raleway-Light"), url("../fonts/Raleway-Light.woff2") format("woff2"), url("../fonts/Raleway-Light.woff") format("woff"); font-weight: 300; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Raleway'; src: local("Raleway Regular"), local("Raleway-Regular"), url("./fonts/Raleway-Regular.woff2") format("woff2"), url("./fonts/Raleway-Regular.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway Regular"), local("Raleway-Regular"), url("../fonts/Raleway-Regular.woff2") format("woff2"), url("../fonts/Raleway-Regular.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Raleway'; src: local("Raleway SemiBold"), local("Raleway-SemiBold"), url("./fonts/Raleway-SemiBold.woff2") format("woff2"), url("./fonts/Raleway-SemiBold.woff") format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway SemiBold"), local("Raleway-SemiBold"), url("../fonts/Raleway-SemiBold.woff2") format("woff2"), url("../fonts/Raleway-SemiBold.woff") format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Raleway'; src: local("Raleway Medium"), local("Raleway-Medium"), url("./fonts/Raleway-Medium.woff2") format("woff2"), url("./fonts/Raleway-Medium.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway Medium"), local("Raleway-Medium"), url("../fonts/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway-Medium.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Raleway'; src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"), url("./fonts/Raleway-ExtraLight.woff2") format("woff2"), url("./fonts/Raleway-ExtraLight.woff") format("woff"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Raleway'; src: local("Raleway ExtraLight"), local("Raleway-ExtraLight"), url("../fonts/Raleway-ExtraLight.woff2") format("woff2"), url("../fonts/Raleway-ExtraLight.woff") format("woff"); font-weight: 200; font-style: normal; font-display: swap; }
 
-@font-face { font-family: 'Myriad Pro'; src: local("MyriadPro-Regular"), local("MyriadPro-Regular"), url("./fonts/MyriadPro-Regular.woff2") format("woff2"), url("./fonts/MyriadPro-Regular.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Myriad Pro'; src: local("MyriadPro-Regular"), local("MyriadPro-Regular"), url("../fonts/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -62,7 +62,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .header .h-wrap .h-right a { margin-left: 25px; color: #000000; font-size: 21px; font-weight: 900; }
 
-.insta-block { width: 1690px; margin: 0 auto; padding-bottom: 135px; position: relative; }
+.insta-block { width: 1680px; margin: 0 auto; position: relative; }
 
 .insta-block:before { content: ''; position: absolute; background: -o-radial-gradient(circle, rgba(255, 147, 147, 0.9) 0%, rgba(255, 255, 255, 0) 35%); background: radial-gradient(circle, rgba(255, 147, 147, 0.9) 0%, rgba(255, 255, 255, 0) 35%); height: 2000px; width: 2000px; border-radius: 50%; top: -800px; right: -1020px; z-index: -1; }
 
@@ -78,19 +78,21 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .insta-block .insta-block-top .insta-link img { position: absolute; right: 525px; top: 86px; }
 
-.insta-block .insta-swiper { position: relative; }
+.insta-block .insta-swiper { position: relative; overflow: hidden; }
 
-.insta-block .insta-swiper .swiper-wrapper { overflow: hidden; min-width: 0; }
+.insta-block .insta-swiper .swiper-wrapper { padding-bottom: 135px; }
 
 .insta-block .insta-swiper .swiper-wrapper .swiper-slide { text-align: center; }
 
 .insta-block .insta-swiper .swiper-wrapper .swiper-slide .insta-slide { text-align: center; }
 
-.insta-block .insta-swiper .swiper-wrapper .swiper-slide .insta-slide .insta-slide-link { display: inline-block; text-align: center; }
+.insta-block .insta-swiper .swiper-wrapper .swiper-slide .insta-slide .insta-slide-link { display: inline-block; text-align: center; position: relative; }
+
+.insta-block .insta-swiper .swiper-wrapper .swiper-slide .insta-slide .insta-slide-link:hover:after { content: ''; position: absolute; background-image: url("../images.arrow-up.png"); width: 94px; height: 94px; top: 20px; right: 0; z-index: 9999; }
 
 .insta-block .insta-swiper .swiper-wrapper .swiper-slide .insta-slide .insta-slide-link picture img { max-width: 100%; }
 
-.insta-block .insta-swiper .swiper-pagination { bottom: -70px; z-index: 99; }
+.insta-block .insta-swiper .swiper-pagination { bottom: 50px; z-index: 99; }
 
 .insta-block .insta-swiper .swiper-pagination-bullet { width: 6px; height: 6px; background-color: #c5c5c6; vertical-align: middle; margin: 0 8px; }
 
@@ -180,8 +182,6 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .block-popular .block-popular-title { position: absolute; top: 100px; right: 0; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); text-transform: lowercase; font-weight: 900; font-size: 30px; letter-spacing: 5px; color: #000000; }
 
-.block-popular .block-popular-leaf { position: absolute; top: 0; left: 0; background: url(./images/leaf.png); }
-
 .block-popular .swiper-popular { position: relative; overflow: hidden; margin-left: 510px; }
 
 .block-popular .swiper-popular .swiper-wrapper .swiper-slide .swiper-slide-pic { width: 314px; height: 314px; }
@@ -200,7 +200,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .block-popular .main-slide .swiper-slide-info .swiper-slide-button { display: inline-block; vertical-align: middle; padding: 0 77px; height: 44px; line-height: 42px; font-size: 20px; font-weight: 300; color: #ffffff; background-color: #e99d9d; text-transform: lowercase; border-radius: 10px; }
 
-.block-news { position: relative; margin-bottom: 30px; padding-top: 395px; }
+.block-news { position: relative; margin-bottom: 250px; padding-top: 395px; }
 
 .block-news .block-news-title { position: absolute; top: 60px; left: 65px; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); text-transform: lowercase; font-weight: 900; font-size: 30px; letter-spacing: 5px; color: #000000; }
 

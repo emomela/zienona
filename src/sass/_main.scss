@@ -1,8 +1,7 @@
  
 .insta-block {
-    width: 1690px;
-    margin: 0 auto;
-    padding-bottom: 135px;
+    width: 1680px;
+    margin: 0 auto;    
     position: relative;
 
     &:before {
@@ -15,7 +14,7 @@
         top: -800px;
         right: -1020px;
         z-index: -1;
-                }
+        }
 
 
 
@@ -64,22 +63,37 @@
         }
     }
 
-    .insta-swiper {
-        
+    .insta-swiper {        
         position: relative;
-        
-        .swiper-wrapper {
-            overflow: hidden;
-            min-width: 0;
+        overflow: hidden;
+    
+            .swiper-wrapper {  
+                padding-bottom: 135px;
+             
+                       
             .swiper-slide {
                 text-align: center;
+                
                 .insta-slide {
-                    text-align: center;
+                    text-align: center;          
+                    
                     .insta-slide-link {
                         display: inline-block;
                         text-align: center;
-                        picture {
-                            
+                        position: relative;    
+
+                        &:hover:after {
+                        content: '';
+                        position: absolute;
+                        background-image: url('../images.arrow-up.png');
+                        width: 94px;
+                        height: 94px;         
+                        top: 20px;
+                        right: 0;                        
+                        z-index: 9999;
+                        }
+                      
+                        picture {                            
                             img {
                                 max-width: 100%;
                             }
@@ -89,7 +103,7 @@
             }
         }
         .swiper-pagination {
-                bottom: -70px;   
+                bottom: 50px;
                 z-index: 99;                      
             }
             .swiper-pagination-bullet {
@@ -453,13 +467,7 @@
 
     }
 
-    .block-popular-leaf {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: url(./images/leaf.png);
-    }
-
+   
     .swiper-popular{
         position: relative;
         overflow: hidden;
@@ -542,7 +550,7 @@
 
 .block-news {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 250px;
     padding-top: 395px;
     
 
