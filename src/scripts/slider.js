@@ -5,6 +5,19 @@ var swiper = new Swiper(".insta-swiper", {
           el: ".swiper-pagination",
           clickable: true,
         },
+
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true,
+          pageUpDown: true,
+        },
+       
+        autoplay: {
+          delay: 3000,
+          stopOnLastSlide: false,
+          disableOnInteraction: false,
+        },
+
       });
 
 var swiper2 = new Swiper(".foto-slider", {
@@ -28,7 +41,17 @@ var swiper3 = new Swiper(".big-slider", {
           
         },
 
-
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true,
+          pageUpDown: true,
+        },
+       
+        autoplay: {
+          delay: 3000,
+          stopOnLastSlide: false,
+          disableOnInteraction: false,
+        },
 
         pagination: {
           el: ".swiper-pagination",
@@ -55,6 +78,18 @@ var swiper4 = new Swiper(".swiper-popular", {
         slidesPerView: 3.5,
         initialSlide: 0,
         spaceBetween: 80,
+
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true,
+          pageUpDown: true,
+        },
+       
+        autoplay: {
+          delay: 3000,
+          stopOnLastSlide: false,
+          disableOnInteraction: false,
+        },
       });
 
       
@@ -62,4 +97,16 @@ var swiper5 = new Swiper(".swiper-news", {
         slidesPerView: 3.5,
         initialSlide: 0,
         spaceBetween: 80,
+
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true,
+          pageUpDown: true,
+        },
+       
+        autoplay: {
+          delay: 3000,
+          stopOnLastSlide: false,
+          disableOnInteraction: false,
+        },
       });      
