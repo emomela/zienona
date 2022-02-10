@@ -85,7 +85,7 @@
                         &:hover:after {
                         content: '';
                         position: absolute;
-                        background-image: url('../images.arrow-up.png');
+                        background-image: url('../images/arrow-up.png');
                         width: 94px;
                         height: 94px;         
                         top: 20px;
@@ -389,6 +389,17 @@
             width: 100px;
             top: 800px;
 
+        .swiper-pagination-bullet-active::after {            
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 40px;
+                height: 6px;                
+                background-color: $white;
+                border-radius: 0;     
+            }
+
             span {
                 position: relative;
                 padding-left: 62px;
@@ -399,26 +410,9 @@
                 letter-spacing: 3px;                
                 margin: 0 8px;                
                 margin-bottom: 40px;
-                background-color: rgba(255,206,206,0.0);           
-                
-
-                &::after {
-                content: '';
-                position: absolute;
-                left: 0;
-                top: 50%;
-                width: 40px;
-                height: 6px;                
-                background-color: $white;
-                border-radius: 0;
-
-            }
+                background-color: rgba(255,206,206,0.0);        
             }
 
-
-            
-
-            
         }
     }
 }
