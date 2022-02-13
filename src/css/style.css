@@ -248,6 +248,40 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .op-slide-btn:hover { background-color: #8db396; }
 
+.pr-card { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.pr-card-right { width: 752px; }
+
+.pr-card-imgs { position: relative; overflow: hidden; padding-bottom: 170px; }
+
+.pr-card-imgs .swiper-pagination { position: absolute; top: 87%; }
+
+.pr-card-imgs .swiper-pagination-bullet { width: 6px; height: 6px; background-color: #727773; vertical-align: middle; }
+
+.pr-card-imgs .swiper-pagination-bullet-active { width: 12px; height: 12px; vertical-align: middle; background-color: #000000; }
+
+.pr-card-imgs .swiper-button-prev { position: absolute; top: 90%; left: 215px; z-index: 11; background-image: url(../images/black-arrow-left.png); width: 27px; height: 21px; background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+.pr-card-imgs .swiper-button-prev::after { display: none; }
+
+.pr-card-imgs .swiper-button-next { position: absolute; top: 90%; right: 215px; z-index: 11; background-image: url(../images/black-arrow-right.png); width: 27px; height: 21px; background-repeat: no-repeat; background-position: center; background-size: cover; }
+
+.pr-card-imgs .swiper-button-next::after { display: none; }
+
+.pr-card-body { padding-top: 50px; padding-left: 130px; position: relative; width: 100%; }
+
+.pr-card-title { font-weight: 900; font-size: 30px; text-transform: uppercase; }
+
+.pr-card-type { font-weight: 900; font-size: 30px; margin-bottom: 35px; }
+
+.pr-card-add { position: relative; font-weight: 300; font-size: 12px; }
+
+.pr-card-add::before { content: ''; position: absolute; top: 37px; height: 2px; width: 120px; background-color: #000000; }
+
+.pr-card-add span:not(:last-child):after { content: "//"; display: inline-block; vertical-align: baseline; margin-right: 12px; margin-left: 15px; }
+
+.pr-card-label { position: absolute; right: 0; top: 50px; }
+
 .footer { width: 1920px; margin: 0 auto; background-color: #c6d9ca; }
 
 .footer .footer-top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }

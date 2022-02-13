@@ -191,3 +191,17 @@ var swiper6 = new Swiper(".op-slider", {
       });
 
 
+var swiper7 = new Swiper(".pr-card-imgs", {
+        
+        spaceBetween: 0,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,          
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          
+        },
+      });
+
