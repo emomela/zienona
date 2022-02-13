@@ -232,11 +232,15 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .breadcrumbs a:not(:last-child):after { content: ">"; display: inline-block; vertical-align: baseline; margin-right: 5px; margin-left: 12px; }
 
+.other-products { margin-bottom: 125px; }
+
 .op-block-title { font-size: 20px; font-weight: 700; text-transform: uppercase; color: #000000; text-align: center; margin-bottom: 125px; }
+
+.op-slider { overflow: hidden; }
 
 .op-slide-img { width: 314px; height: 314px; border-radius: 10px; margin-bottom: 40px; }
 
-.op-slide-title { font-size: 30px; font-weight: 700; color: #000000; }
+.op-slide-title { font-size: 30px; font-weight: 700; color: #000000; margin-bottom: 12px; }
 
 .op-slide-category { font-size: 12px; font-weight: 700; color: #000000; margin-bottom: 35px; }
 

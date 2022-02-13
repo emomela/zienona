@@ -157,6 +157,37 @@ var swiper5 = new Swiper(".swiper-news", {
       });
     }
   },
-      });     
+      });   
+
+
+var swiper6 = new Swiper(".op-slider", {
+        slidesPerView: 4,
+        spaceBetween: 0,
+        
+        keyboard: {
+          enabled: true,
+          onlyInViewport: true,
+          pageUpDown: true,
+        },
+       
+        autoplay: {
+          delay: 6000,
+          stopOnLastSlide: false,
+          disableOnInteraction: false,
+        },
+
+        on: {
+    init() {
+      this.el.addEventListener('mouseenter', () => {
+        this.autoplay.stop();
+      });
+
+      this.el.addEventListener('mouseleave', () => {
+        this.autoplay.start();
+      });
+    }
+  },
+        
+      });
 
 
