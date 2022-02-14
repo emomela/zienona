@@ -220,9 +220,20 @@
 
     &-label {
         margin-bottom: 70px;
+        position: relative;
+
+        &::before {
+            position: absolute;  
+            content: url('../images/star.png');                      
+            left: 0;
+            margin-left: -35px;
+            top: 0;        
+
+        }
     }
 
-    &-tag {        
+    &-tag { 
+        position: absolute;    
         right: 20px;
         top: 150px;
         display: block;
@@ -234,6 +245,16 @@
         font-weight: 700;
         color: #ffffff;
         border-radius: 11px;
+        
+
+        &::before {
+            position: absolute;  
+            content: url('../images/slim-body.png');                      
+            left: 0;
+            margin-left: 15px;
+            top: 21%;        
+
+        }
 
     }
 

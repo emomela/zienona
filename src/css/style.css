@@ -286,9 +286,13 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .pr-card-info { text-align: right; }
 
-.pr-card-label { margin-bottom: 70px; }
+.pr-card-label { margin-bottom: 70px; position: relative; }
 
-.pr-card-tag { right: 20px; top: 150px; display: block; padding: 14px 14px 14px 46px; white-space: nowrap; background-color: #8db396; font-size: 8px; font-weight: 700; color: #ffffff; border-radius: 11px; }
+.pr-card-label::before { position: absolute; content: url("../images/star.png"); left: 0; margin-left: -35px; top: 0; }
+
+.pr-card-tag { position: absolute; right: 20px; top: 150px; display: block; padding: 14px 14px 14px 46px; white-space: nowrap; background-color: #8db396; font-size: 8px; font-weight: 700; color: #ffffff; border-radius: 11px; }
+
+.pr-card-tag::before { position: absolute; content: url("../images/slim-body.png"); left: 0; margin-left: 15px; top: 21%; }
 
 .pr-card-text { font-size: 20px; font-weight: 300; margin-bottom: 40px; }
 
