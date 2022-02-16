@@ -354,23 +354,41 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .products-top-descr { color: #ffffff; font-size: 30px; font-weight: 300; max-width: 450px; }
 
-.products-categories { width: 1780px; margin: 0 auto; }
+.products-categories { width: 1780px; margin: 0 auto; padding-top: 80px; }
 
-.pc-row-top { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
+.pc-row-top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-bottom: 55px; }
 
-.pc-tag { width: 270px; height: 101px; padding-left: 135px; font-size: 25px; font-weight: 400; color: #ffffff; border-radius: 9px; }
+.pc-tag { width: 270px; height: 101px; padding-left: 135px; font-size: 25px; font-weight: 400; color: #ffffff; border-radius: 9px; padding-top: 38px; position: relative; cursor: pointer; }
 
 .pc-tag-body { background-color: #c6d9ca; }
 
+.pc-tag-body img { position: absolute; height: 64px; margin-left: -85px; margin-top: -15px; }
+
 .pc-tag-face { background-color: #9faf95; }
 
-.pc-tag-hands { background-color: #aeab98; }
+.pc-tag-face img { position: absolute; margin-left: -85px; margin-top: -10px; }
+
+.pc-tag-hands { background-color: #aeab98; padding-top: 26px; }
+
+.pc-tag-hands img { position: absolute; margin-left: -85px; margin-top: 5px; height: 55px; }
 
 .pc-tag-hair { background-color: #c3a79b; }
 
-.pc-tag-men { background-color: #e59d9e; }
+.pc-tag-hair img { position: absolute; margin-left: -85px; margin-top: -15px; }
+
+.pc-tag-men { background-color: #e59d9e; padding-left: 105px; }
+
+.pc-tag-men img { position: absolute; margin-left: -65px; margin-top: -15px; }
 
 .pc-tag-other { background-color: #d2a39b; }
+
+.pc-tag-other img { position: absolute; margin-left: -85px; margin-top: -10px; }
+
+.pc-row-bottom { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.pc-category { cursor: pointer; width: 180px; height: 67px; background-color: #8db396; color: #ffffff; font-weight: 400; font-size: 15px; border-radius: 9px; text-align: center; vertical-align: middle; }
+
+.pc-category:hover { color: #000000; background-color: #c6d9ca; }
 
 .footer { width: 1920px; margin: 0 auto; background-color: #c6d9ca; }
 
