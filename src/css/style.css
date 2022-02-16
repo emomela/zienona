@@ -346,6 +346,32 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .pr-card-amount-plus::after { content: ""; position: absolute; width: 10px; height: 2px; top: 50%; left: 50%; margin-top: -1px; margin-left: -5px; background: #535353; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); }
 
+.products-top { width: 100%; height: 563px; background: no-repeat center #e99d9d url(../images/background2.png); padding-top: 175px; padding-left: 230px; }
+
+.products-top-title { position: relative; color: #ffffff; font-size: 101px; font-weight: 900; margin-bottom: 80px; }
+
+.products-top-title:before { content: ''; position: absolute; background-color: #ffffff; height: 7px; width: 56px; top: 150px; left: 0; }
+
+.products-top-descr { color: #ffffff; font-size: 30px; font-weight: 300; max-width: 450px; }
+
+.products-categories { width: 1780px; margin: 0 auto; }
+
+.pc-row-top { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; }
+
+.pc-tag { width: 270px; height: 101px; padding-left: 135px; font-size: 25px; font-weight: 400; color: #ffffff; border-radius: 9px; }
+
+.pc-tag-body { background-color: #c6d9ca; }
+
+.pc-tag-face { background-color: #9faf95; }
+
+.pc-tag-hands { background-color: #aeab98; }
+
+.pc-tag-hair { background-color: #c3a79b; }
+
+.pc-tag-men { background-color: #e59d9e; }
+
+.pc-tag-other { background-color: #d2a39b; }
+
 .footer { width: 1920px; margin: 0 auto; background-color: #c6d9ca; }
 
 .footer .footer-top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
