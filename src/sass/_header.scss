@@ -4,7 +4,6 @@
     margin: 0 auto;
     z-index: 99;
 
-
     .h-wrap {
         position: absolute;
         top:0;  
@@ -60,4 +59,8 @@
     
 
 
+}
+
+.header-pink {
+    background: no-repeat center $peach url(../images/header-pink.png);    
 }
