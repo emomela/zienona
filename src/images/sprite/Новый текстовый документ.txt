@@ -1,0 +1,34 @@
+.bg-clean {
+    width: 35px; height: 35px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-cosmetics {
+    width: 44px; height: 48px;
+    background: url('css_sprites.png') -10px -127px;
+}
+
+x
+.bg-facial_treatment {
+    width: 53px; height: 53px;
+    background: url('css_sprites.png') -10px -195px;
+}
+
+x
+.bg-man {
+    width: 41px; height: 55px;
+    background: url('css_sprites.png') -10px -268px;
+}
+
+x
+.bg-slim_body2 {
+    width: 31px; height: 42px;
+    background: url('css_sprites.png') -10px -65px;
+}
+
+x
+.bg-woman {
+    width: 50px; height: 60px;
+    background: url('css_sprites.png') -10px -343px;
+}

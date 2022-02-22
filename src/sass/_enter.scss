@@ -1,0 +1,17 @@
+.enter-page-wrapper {
+    width: 900px;
+    
+    margin: 0 auto;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url(../images/back4.png);
+        width: 1084px;
+        height: 1418px;
+        top: 20px;
+        left: 0;
+        z-index: -1;
+    }
+}

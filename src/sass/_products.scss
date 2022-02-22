@@ -225,5 +225,47 @@
 }
 
 .catalog-pgn {
-    
+    padding: 0;
+    margin: 50px 0 50px 0;
+    text-align: center;
+
+}
+
+.pgn-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.pgn-link {
+    font-size: 12px;
+    font-weight: 900;
+    color: #a1a1a1;
+    margin: 0 20px;
+
+        &:hover {
+            color: #000000;
+        }
+
+    &-current {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000000;
+        margin: 0 20px;
+    }
+
+    &-arrow {
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.catalog-list {
+    padding-left: 135px;
+    padding-right: 95px;
 }
