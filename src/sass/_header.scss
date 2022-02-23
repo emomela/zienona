@@ -59,6 +59,7 @@
 }
 
 .header-pink {
-    background: no-repeat center $white url('../images/header-pink.png');
-    height: 217px;        
+    background: no-repeat center #ffffff00 url('../images/header-pink.png');
+    height: 217px;
+    z-index: 55;     
 }
