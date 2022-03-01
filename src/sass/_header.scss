@@ -36,7 +36,12 @@
                         a {
                             font-weight: 400;
                             font-size: 18px;
-                            color: $black;                          
+                            color: $black;
+                            cursor: pointer;
+                            
+                            &:hover {
+                                font-weight: 800;
+                            }
                         }      
                     
                     }
