@@ -46,13 +46,13 @@
         <div class="account-page-wrap">
           <div class="account-page-tabs">
             <div class="account-page-tab-items">
-              <a href="#account-tab_01" class="account-page-tab-item">Мои данные</a>
-              <a href="#" class="account-page-tab-item">Данные фактуры</a>
-              <a href="#" class="account-page-tab-item">Заказы</a>
+              <a href="#tab_01" class="account-page-tab-item selected">Мои данные</a>
+              <a href="#tab_02" class="account-page-tab-item">Данные фактуры</a>
+              <a href="#tab_03" class="account-page-tab-item">Заказы</a>
             </div>
 
             <div class="account-page-body acbody">
-              <div class="account-page-section" id="account-tab_01">
+              <div class="account-page-section" id="tab_01">
                 <div class="acbody-full-name-flex">
                   <div class="acbody-name acbody-field">
                     <label for="name" class="acbody-label">Имя</label>
@@ -119,6 +119,80 @@
                 </div>
 
 
+
+              </div>
+
+              <div class="account-page-section" id="tab_02">
+                <div class="acbody-full-name-flex">
+                  <div class="acbody-company-name acbody-field">
+                    <label for="company-name" class="acbody-label">Название фирмы</label>
+                    <input type="text" name="company-name" class="acbody-input" placeholder="Название фирмы">
+                  </div>
+                  <div class="acbody-nip acbody-field">
+                    <label for="nip" class="acbody-label">NIP</label>
+                    <input type="text" name="nip" class="acbody-input" placeholder="NIP">
+                  </div>
+
+                </div>
+                <div class="acbody-full-name-flex">
+                  <div class="acbody-telephone acbody-field">
+                    <label for="telephone" class="acbody-label">Телефон</label>
+                    <input type="text" name="telephone" class="acbody-input" placeholder="Телефон">
+                  </div>
+                  <div class="acbody-email acbody-field">
+                    <label for="email" class="acbody-label">E-mail</label>
+                    <input type="text" name="email" class="acbody-input" placeholder="E-mail">
+                  </div>
+
+                </div>
+
+                <div class="acbody-adress">
+                  <div class="acbody-adress-flex">
+                    <div class="acbody-country acbody-field">
+                      <label for="country" class="acbody-label">Страна</label>
+                      <input type="text" name="country" class="acbody-input" placeholder="Страна">
+                    </div>
+                    <div class="acbody-city acbody-field">
+                      <label for="city" class="acbody-label">Город</label>
+                      <input type="text" name="city" class="acbody-input" placeholder="Город">
+                    </div>
+                  </div>
+                  <div class="acbody-adress-flex-bottom">
+                    <div class="acbody-street acbody-field">
+                      <label for="street" class="acbody-label">Улица</label>
+                      <input type="text" name="street" class="acbody-input" placeholder="Улица">
+                    </div>
+                    <div class="acbody-adress-data">
+                      <div class="acbody-house acbody-field">
+                        <label for="house" class="acbody-label">Дом</label>
+                        <input type="text" name="house" class="acbody-input" placeholder="Дом">
+                      </div>
+                      <div class="acbody-flat acbody-field">
+                        <label for="flat" class="acbody-label">Квартира</label>
+                        <input type="text" name="flat" class="acbody-input" placeholder="Квартира">
+                      </div>
+                      <div class="acbody-index acbody-field">
+                        <label for="index" class="acbody-label">Индекс</label>
+                        <input type="text" name="index" class="acbody-input" placeholder="Индекс">
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="enter-page-btn-wrap">
+                  <a class="enter-page-btn" href="#">
+                    <div class="enter-page-btn-flex">
+                      изменить данные
+                    </div>
+                  </a>
+                </div>
+
+
+
+              </div>
+
+              <div class="account-page-section" id="tab_03">
 
               </div>
             </div>

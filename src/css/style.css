@@ -435,7 +435,17 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .account-page-wrap { width: 1175px; margin: 0 auto; }
 
-.account-page-tab-item { font-weight: 900; color: #999999; }
+.account-page-tab-items { width: 475px; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.account-page-tab-item { position: relative; font-size: 12px; font-weight: 900; letter-spacing: 3px; color: #696970; text-transform: uppercase; }
+
+.account-page-tab-item:hover { color: #000000; }
+
+.account-page-tab-item.selected { color: #000000; }
+
+.account-page-tab-item.selected::before { content: ''; position: absolute; left: -20px; right: -20px; top: 100%; margin-top: 9px; height: 2px; background-color: #000000; }
+
+.account-page-section { min-height: 570px; }
 
 .acbody-full-name-flex { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding-top: 40px; border-bottom: 1px solid #575759; }
 

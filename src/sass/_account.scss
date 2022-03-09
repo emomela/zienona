@@ -3,11 +3,40 @@
   margin: 0 auto;
 }
 
-.account-page-tab-item {
-  font-weight: 900;
-  color: #999999;
+.account-page-tab-items {
+  width: 475px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
+.account-page-tab-item {
+  position: relative;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #696970;
+  text-transform: uppercase;
+  &:hover {
+    color: $black;                        
+     }
+}
+.account-page-tab-item.selected {
+  color: #000000;  
+  &::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  right: -20px;
+  top: 100%;
+  margin-top: 9px;
+  height: 2px;                
+   background-color: $black;
+  }
+}
+.account-page-section {
+  min-height: 570px;
+}
 .acbody {
   &-full-name-flex {
     display: flex;
