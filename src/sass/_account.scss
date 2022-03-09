@@ -1,0 +1,91 @@
+.account-page-wrap {
+  width: 1175px;
+  margin: 0 auto;
+}
+
+.account-page-tab-item {
+  font-weight: 900;
+  color: #999999;
+}
+
+.acbody {
+  &-full-name-flex {
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 40px;
+    border-bottom: 1px solid #575759;
+    
+  }
+
+  &-field {
+    width: 571px;
+    position: relative;
+  }
+
+  &-label {
+    position: absolute;
+    left: 21px;
+    top: -0.5em;
+    max-width: calc(100% - 40px);
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 12px;
+    z-index: 11;
+    padding: 0px 8px;
+    background: #fff;
+    color: #9f9f9f;
+  }
+
+  &-input {
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 9px;
+    padding: 0px 20px;
+    height: 44px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none !important;
+    margin-bottom: 40px;
+
+  }
+
+  &-adress-flex {
+    display: flex;
+    justify-content: space-between;    
+    padding-top: 40px;
+
+  }
+
+  &-adress-flex-bottom {
+    display: flex;
+    justify-content: space-between;  
+    padding-top: 0;
+  }
+
+  &-adress-data {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+  }
+
+  &-house {
+    width: 240px;
+    margin-right: 28px;
+  }
+
+  &-flat {
+    width: 240px;
+    margin-right: 28px;
+  }
+
+  &-index {
+    width: 240px;
+  }
+
+}
