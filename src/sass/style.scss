@@ -18,6 +18,10 @@ html {
     z-index: -99;
 }
 
+.row {
+    display: flex;
+}
+
 @import "ui";
 @import "header";
 @import "main";
@@ -25,4 +29,5 @@ html {
 @import "products";
 @import "account";
 @import "enter";
+@import "basket";
 @import "footer";

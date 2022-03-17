@@ -25,6 +25,8 @@ html { font-family: "Raleway", sans-serif; }
 
 .body-wrapper { min-width: 100%; min-height: 100%; overflow-x: hidden; background-color: #ffffff; z-index: -99; }
 
+.row { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
 ul, ol { padding: 0px; margin: 0px; list-style: none; }
 
 li { list-style: none; }
@@ -521,6 +523,12 @@ body { max-width: 1920px; margin: 0 auto; }
 .enter-page-checkbox-label { font-size: 15px; font-weight: 400; }
 
 .enter-page-field-check { margin-bottom: 50px; }
+
+.cart-item-title { font-weight: 900; font-size: 30px; }
+
+.cart-item-category { font-size: 12px; font-weight: 700; }
+
+.cart-item-img { display: block; width: 150px; height: 150px; }
 
 .footer { width: 1920px; margin: 0 auto; background-color: #c6d9ca; }
 
