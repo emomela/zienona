@@ -526,9 +526,15 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .basket-page { width: 1600px; margin: 0 auto; min-height: calc(100vh - 642px); }
 
-.cart-item { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.cart-items { padding-left: 40px; margin-bottom: 105px; margin-right: 90px; }
 
-.cart-item-amount { display: inline-block; position: relative; width: 165px; padding-left: 44px; padding-right: 44px; margin-right: 70px; margin-bottom: 50px; }
+.cart-item { display: -webkit-box; display: -ms-flexbox; display: flex; height: 200px; width: 896px; padding-top: 24px; padding-bottom: 24px; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.cart-item:not(:last-child) { border-bottom: 1px solid #575759; }
+
+.cart-item-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.cart-item-amount { display: inline-block; position: relative; width: 165px; padding-left: 44px; padding-right: 44px; margin-right: 70px; margin-bottom: 0px; }
 
 .cart-item-amount-minus { position: absolute; top: 0; width: 44px; height: 44px; line-height: 44px; background: #f4cece; font-size: 0; text-indent: -9999px; left: 0; border-radius: 8px; }
 
@@ -546,11 +552,29 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .cart-item-amount-plus::after { content: ""; position: absolute; width: 10px; height: 2px; top: 50%; left: 50%; margin-top: -1px; margin-left: -5px; background: #535353; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); }
 
-.cart-item-title { font-weight: 900; font-size: 30px; }
+.cart-item-title { font-weight: 900; font-size: 30px; margin-bottom: 20px; }
 
-.cart-item-category { font-size: 12px; font-weight: 700; }
+.cart-item-category { font-size: 12px; font-weight: 700; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 20px; }
 
-.cart-item-img { display: block; width: 150px; height: 150px; }
+.cart-item-img { display: block; width: 150px; height: 150px; margin-right: 60px; }
+
+.cart-item-field { margin-right: 25px; }
+
+.cart-item-sum { text-align: right; }
+
+.cart-item-price { font-weight: 900; font-size: 30px; color: #000; position: relative; text-align: right; margin-top: 15px; margin-bottom: 75px; }
+
+.cart-item-price::before { content: '60.00 zł'; white-space: nowrap; position: absolute; font-size: 15px; font-weight: 400; text-decoration: line-through; top: 15px; right: 155px; }
+
+.cart-item-price::after { content: '-50%'; white-space: nowrap; position: absolute; font-size: 15px; font-weight: 700; color: #e99d9d; top: 35px; right: 0px; }
+
+.cart-item-delete { font-size: 12px; font-weight: 400; margin-right: 45px; position: relative; }
+
+.cart-item-delete-img { position: absolute; right: -45px; top: -5px; }
+
+.cart-check { width: 580px; background-color: #f5f5f5; border-radius: 10px; padding-left: 60px; padding-right: 60px; padding-top: 45px; }
+
+.cart-check-title { font-size: 30px; text-transform: uppercase; font-weight: 700; }
 
 .footer { width: 1920px; margin: 0 auto; background-color: #c6d9ca; }
 
