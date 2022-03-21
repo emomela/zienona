@@ -468,16 +468,13 @@
         margin-left: 510px;
         
 
-        .swiper-wrapper {
-            
+        .swiper-wrapper {           
             
             .swiper-slide {
                 .swiper-slide-pic {
                     width: 314px;
                     height: 314px;
                 }
-
-
 
                 .swiper-slide-info {
 
@@ -530,10 +527,12 @@
                 font-weight: 300;
                 color: $white;
                 background-color: $peach;
-                text-transform: lowercase;
-                
+                text-transform: lowercase;                
                 border-radius: 10px;
                 
+                &:hover {
+                    background-color: #8db396;
+                }
             }
 
         
@@ -545,9 +544,7 @@
 .block-news {
     position: relative;
     margin-bottom: 250px;
-    padding-top: 395px;
-    
-
+    padding-top: 395px; 
 
     .block-news-title {
         position: absolute;
@@ -625,14 +622,14 @@
                 font-weight: 300;
                 color: $white;
                 background-color: $peach;
-                text-transform: lowercase;
-                
+                text-transform: lowercase;                
                 border-radius: 10px;
-                
-            }
 
-        
+                &:hover {
+                    background-color: #8db396;
+                }
+                
+            }        
         }
     }
-
 }
