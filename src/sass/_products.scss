@@ -59,17 +59,19 @@
 
     &:hover {
         font-weight: 700;
-        filter: invert(100%);
+        opacity: 0.8;
+        color: #000;
     }
     
     &-body {
-        background-color: #c6d9ca;
+        background-color: #8db396;
      
         img {
             position: absolute;
             height: 64px;
             margin-left: -85px;
-            margin-top: -15px;            
+            margin-top: -15px;
+                 
         }
     }
 
