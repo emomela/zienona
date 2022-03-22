@@ -70,8 +70,11 @@
             height: 64px;
             margin-left: -85px;
             margin-top: -15px;}
-     
+
         
+    }
+    &-body:hover .bg-body {
+        background-position: -10px -175px;
     }
     
     &-face {
@@ -82,14 +85,21 @@
             margin-left: -85px;
             margin-top: -10px;
         }
+
+        &:hover .bg-face {
+            background-position: -181px -85px;
+        }
     }
     &-hands {
         background-color: #aeab98;
         padding-top: 26px;
         .pc-tag-img {
             position: absolute;           
-            margin-left: -85px;
+            margin-left: -90px;
             top: 23px;            
+        }
+        &:hover .bg-hands {
+            background-position: -10px -10px;
         }
     }
     &-hair {
@@ -98,6 +108,9 @@
             position: absolute;            
             margin-left: -85px;
             margin-top: -15px;
+        }
+        &:hover .bg-hair {
+            background-position: -82px -95px;
         }
     }
     &-men {
@@ -108,6 +121,9 @@
             margin-left: -65px;
             margin-top: -15px;
         }
+        &:hover .bg-men {
+            background-position: -256px -155px;
+        }
 
     }
     &-other {
@@ -116,6 +132,9 @@
             position: absolute;            
             margin-left: -85px;
             margin-top: -10px;
+        }
+        &:hover .bg-other {
+            background-position: -256px -10px;
         }
     }
 }
@@ -158,6 +177,7 @@
     font-weight: 700;
     font-size: 30px;
     padding-left: 80px;
+    margin-bottom: 45px;
 
     span:not(:last-child):after {
     content: "/";
@@ -267,4 +287,132 @@
 .catalog-list {
     padding-left: 135px;
     padding-right: 95px;
+}
+
+.category-filters {
+    width: 1725px;
+    margin: 0 auto;
+    padding-left: 115px;
+    display: flex;
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        background-color: $black;
+        height: 2px;
+        width: 70px;
+        top: 50%;
+        left: 0;
+    }
+    
+    &-radiobutton {
+        display: flex;
+
+        &-field {
+            position: relative;
+            width: 275px;
+            margin: 0 auto;
+            margin-bottom: 25px;
+        }
+
+
+        &-input {
+            background: transparent;
+            color: #000;
+            border: 1px solid #000;
+            border-radius: 9px;
+            padding: 0px 20px;
+            height: 30px;
+            width: 100%;
+            font-size: 15px;
+            font-weight: 700;
+            outline: none !important;
+
+        }
+
+        &-label {
+            position: absolute;
+            left: 21px;
+            top: -0.5em;
+            max-width: calc(100% - 40px);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-transform: uppercase;
+            white-space: nowrap;
+            font-weight: 400;
+            font-size: 12px;
+            z-index: 11;
+            padding: 0px 8px;
+            background: transparent;
+            color: #000000;
+        }
+    }
+}
+
+
+.category-filters-radiobutton-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.category-filters-radiobutton-input+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.category-filters-radiobutton-input+label::before {
+  content: '';
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.category-filters-radiobutton-input:checked+label::before {
+  border-color: #000;
+  background-color: transparent;
+  background-image:url('../images/check.png');
+}
+
+/* стили при наведении курсора на checkbox */
+.category-filters-radiobutton-input:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #e99d9d;
+}
+
+.category-filters-radiobutton-label {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.enter-page-field-check {
+    margin-bottom: 50px;
+}
+
+.category-filters-checkbox {
+    background: transparent;
+            color: #000;
+            border: 1px solid #000;
+            border-radius: 9px;
+            padding: 0px 20px;
+            height: 30px;
+            width: 100%;
+            font-size: 16px;
+            font-weight: 700;
+            outline: none !important;
+
+}
+
+.category-filters-checkbox-label {
+    text-transform: uppercase;
+    white-space: nowrap;
+
 }
