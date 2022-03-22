@@ -1,0 +1,70 @@
+.bg-body {
+    width: 45px; height: 61px;
+    background: url('css_sprites.png') -76px -175px;
+}
+
+x
+.bg-body_b {
+    width: 46px; height: 61px;
+    background: url('css_sprites.png') -10px -175px;
+}
+
+x
+.bg-face {
+    width: 55px; height: 55px;
+    background: url('css_sprites.png') -181px -10px;
+}
+
+x
+.bg-face_b {
+    width: 55px; height: 55px;
+    background: url('css_sprites.png') -181px -85px;
+}
+
+x
+.bg-hair {
+    width: 52px; height: 60px;
+    background: url('css_sprites.png') -10px -95px;
+}
+
+x
+.bg-hair_b {
+    width: 51px; height: 60px;
+    background: url('css_sprites.png') -82px -95px;
+}
+
+x
+.bg-hands {
+    width: 65px; height: 65px;
+    background: url('css_sprites.png') -96px -10px;
+}
+
+x
+.bg-hands_b {
+    width: 66px; height: 65px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-men {
+    width: 41px; height: 55px;
+    background: url('css_sprites.png') -256px -80px;
+}
+
+x
+.bg-men_b {
+    width: 41px; height: 55px;
+    background: url('css_sprites.png') -256px -155px;
+}
+
+x
+.bg-other {
+    width: 47px; height: 50px;
+    background: url('css_sprites.png') -141px -175px;
+}
+
+x
+.bg-other_b {
+    width: 47px; height: 50px;
+    background: url('css_sprites.png') -256px -10px;
+}

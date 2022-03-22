@@ -47,6 +47,42 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .inner { width: 1690px; margin: 0 auto; }
 
+.bg-body { width: 46px; height: 61px; background: url("../images/png/css_sprites.png") -76px -175px; }
+
+.bg-body:hover { background-position: -10px -175px; }
+
+.bg-body_b { width: 46px; height: 61px; background: url("../images/png/css_sprites.png") -10px -175px; }
+
+.bg-face { width: 55px; height: 55px; background: url("../images/png/css_sprites.png") -181px -10px; }
+
+.bg-face:hover { background-position: -181px -85px; }
+
+.bg-face_b { width: 55px; height: 55px; background: url("../images/png/css_sprites.png") -181px -85px; }
+
+.bg-hair { width: 52px; height: 60px; background: url("../images/png/css_sprites.png") -10px -95px; }
+
+.bg-hair:hover { background-position: -82px -95px; }
+
+.bg-hair_b { width: 51px; height: 60px; background: url("../images/png/css_sprites.png") -82px -95px; }
+
+.bg-hands { width: 65px; height: 65px; background: url("../images/png/css_sprites.png") -96px -10px; }
+
+.bg-hands:hover { background-position: -10px -10px; }
+
+.bg-hands_b { width: 66px; height: 65px; background: url("../images/png/css_sprites.png") -10px -10px; }
+
+.bg-men { width: 41px; height: 55px; background: url("../images/png/css_sprites.png") -256px -80px; }
+
+.bg-men:hover { background-position: -256px -155px; }
+
+.bg-men_b { width: 41px; height: 55px; background: url("../images/png/css_sprites.png") -256px -155px; }
+
+.bg-other { width: 47px; height: 50px; background: url("../images/png/css_sprites.png") -141px -175px; }
+
+.bg-other:hover { background-position: -256px -10px; }
+
+.bg-other_b { width: 47px; height: 50px; background: url("../images/png/css_sprites.png") -256px -10px; }
+
 .header { position: relative; width: 1920px; margin: 0 auto; z-index: 99; }
 
 .header .h-wrap { position: absolute; top: 0; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-top: 35px; padding-right: 115px; padding-left: 60px; padding-bottom: 35px; }
@@ -375,27 +411,27 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .pc-tag-body { background-color: #8db396; }
 
-.pc-tag-body img { position: absolute; height: 64px; margin-left: -85px; margin-top: -15px; }
+.pc-tag-body .pc-tag-img { position: absolute; height: 64px; margin-left: -85px; margin-top: -15px; }
 
 .pc-tag-face { background-color: #9faf95; }
 
-.pc-tag-face img { position: absolute; margin-left: -85px; margin-top: -10px; }
+.pc-tag-face .pc-tag-img { position: absolute; margin-left: -85px; margin-top: -10px; }
 
 .pc-tag-hands { background-color: #aeab98; padding-top: 26px; }
 
-.pc-tag-hands img { position: absolute; margin-left: -85px; margin-top: 5px; height: 55px; }
+.pc-tag-hands .pc-tag-img { position: absolute; margin-left: -85px; top: 23px; }
 
 .pc-tag-hair { background-color: #c3a79b; }
 
-.pc-tag-hair img { position: absolute; margin-left: -85px; margin-top: -15px; }
+.pc-tag-hair .pc-tag-img { position: absolute; margin-left: -85px; margin-top: -15px; }
 
 .pc-tag-men { background-color: #e59d9e; padding-left: 105px; }
 
-.pc-tag-men img { position: absolute; margin-left: -65px; margin-top: -15px; }
+.pc-tag-men .pc-tag-img { position: absolute; margin-left: -65px; margin-top: -15px; }
 
 .pc-tag-other { background-color: #d2a39b; }
 
-.pc-tag-other img { position: absolute; margin-left: -85px; margin-top: -10px; }
+.pc-tag-other .pc-tag-img { position: absolute; margin-left: -85px; margin-top: -10px; }
 
 .pc-row-bottom { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 

@@ -65,20 +65,19 @@
     
     &-body {
         background-color: #8db396;
-     
-        img {
-            position: absolute;
+
+        .pc-tag-img {position: absolute;
             height: 64px;
             margin-left: -85px;
-            margin-top: -15px;
-                 
-        }
+            margin-top: -15px;}
+     
+        
     }
-
+    
     &-face {
         background-color: #9faf95;
 
-        img {
+        .pc-tag-img {
             position: absolute;            
             margin-left: -85px;
             margin-top: -10px;
@@ -87,16 +86,15 @@
     &-hands {
         background-color: #aeab98;
         padding-top: 26px;
-        img {
+        .pc-tag-img {
             position: absolute;           
             margin-left: -85px;
-            margin-top: 5px;
-            height: 55px;
+            top: 23px;            
         }
     }
     &-hair {
         background-color: #c3a79b;
-        img {
+        .pc-tag-img {
             position: absolute;            
             margin-left: -85px;
             margin-top: -15px;
@@ -105,7 +103,7 @@
     &-men {
         background-color: #e59d9e;
         padding-left: 105px;
-        img {
+        .pc-tag-img {
             position: absolute;            
             margin-left: -65px;
             margin-top: -15px;
@@ -114,7 +112,7 @@
     }
     &-other {
         background-color: #d2a39b;
-        img {
+        .pc-tag-img {
             position: absolute;            
             margin-left: -85px;
             margin-top: -10px;
