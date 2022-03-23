@@ -12,8 +12,7 @@
         width: 2000px;
         border-radius: 50%;
         top: -800px;
-        right: -1020px;
-        z-index: -1;
+        right: -1020px;        
         }
 
 
@@ -39,26 +38,27 @@
                 background-color: $black;
                 height: 2px;
                 width: 140px;
-                top: 95px;
+                top: 107px;
                 left: 125px;
             }    
         }
 
         .insta-link {
-            padding-top: 85px;
+            padding-top: 90px;
             padding-right: 560px;
             position: relative;
+
             .insta-link-explore {
                 font-size: 14px;
                 font-weight: 800;
                 color: $black;
                 text-transform: uppercase;
-                letter-spacing: 2px;
+                letter-spacing: 3px;
             }
             img {
                 position: absolute;
-                right:525px;
-                top: 86px;
+                right: 518px;
+                top: 89px;
             }
         }
     }
@@ -133,6 +133,20 @@
     .about-us-left {
         width: 650px;
         height: 950px;
+        position: relative;
+
+        &:before {
+        content: '';
+        position: absolute;
+        background: radial-gradient(circle, rgba(255,206,206,1) 0%, rgba(255,255,255,0) 36%);
+        height: 1200px;
+        width: 1200px;
+        border-radius: 50%;
+        top: -300px;
+        left: 300px;
+                    
+                }
+
         .foto-slider {
             position: relative;
             overflow: hidden;
@@ -171,26 +185,17 @@
     .about-us-right {
         padding: 90px 350px 110px 165px;
         position: relative;
-
-
-        &:before {
-                    content: '';
-                    position: absolute;
-                    background: radial-gradient(circle, rgba(255,206,206,1) 0%, rgba(255,255,255,0) 36%);
-                    height: 1200px;
-                    width: 1200px;
-                    border-radius: 50%;
-                    top: -335px;
-                    left: -410px;
-                    z-index: -1;
-                }
+        z-index: 11;       
 
         .about-us-tabs {
+            width: 650px;
             
             .about-us-tab-items {
+                
                 display: flex;
                 justify-content: space-around;
                 margin-bottom: 140px;
+                
 
                 .about-us-tab-item {
                     position: relative;
@@ -212,10 +217,10 @@
                     &::before {
                         content: '';
                         position: absolute;
-                        left: -20px;
-                        right: -20px;
+                        left: -30px;
+                        right: -30px;
                         top: 100%;
-                        margin-top: 9px;
+                        margin-top: 12px;
                         height: 2px;                
                         background-color: $black;  
 
@@ -243,7 +248,7 @@
                         font-weight: 500;
                         color: $gray-active;
                         line-height: 1.5;
-                        margin-bottom: 30px;
+                        margin-bottom: 20px;
                     }
                     .about-us-block-label {
                         position: relative;
@@ -262,6 +267,7 @@
 
                     }
                     .about-us-block-text {
+                        width: 540px;
                         font-size: 16px;
                         font-weight: 400;
                         line-height: 1.875;
@@ -443,7 +449,7 @@
         height: 1418px;         
         top: 20px;
         left: 0;
-        z-index: -1;        
+         
     }
 
     
@@ -503,7 +509,7 @@
             padding-top: 115px;
 
             .swiper-slide-title {
-                font-size: 30px;
+                font-size: 25px;
                 font-weight: 900;
                 color: $black;
                 margin-bottom: 30px;
@@ -542,7 +548,7 @@
 
 .block-news {
     position: relative;
-    margin-bottom: 250px;
+    margin-bottom: 240px;
     padding-top: 395px; 
 
     .block-news-title {

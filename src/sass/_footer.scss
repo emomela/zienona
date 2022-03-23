@@ -2,6 +2,7 @@
     width: 1920px;
     margin: 0 auto;
     background-color: $green;
+    z-index: 99;
 
     .footer-top {        
         display: flex;
@@ -30,11 +31,11 @@
 
                 .footer-social-links-icons {
                     display: flex;
-                    padding-right: 15px;
+                    
 
                     a {
                         display: inline-block;
-                        margin-right: 40px;
+                        margin-right: 35px;
                     }
                 }
 
@@ -57,7 +58,7 @@
                         font-size: 14px;
                         line-height: 2.14;
                         text-transform: uppercase;
-                        letter-spacing: 4px;
+                        letter-spacing: 3px;
                         
                     }
 
@@ -72,15 +73,15 @@
             .footer-tel {
                 height: 100px;
                 text-align: right;
-                padding-top: 10px;        
+                padding-top: 22px;        
                 
                 p {
-                    padding: 10px 0;
+                    padding: 3px 0;
                     font-weight: 800;
                     font-size: 14px;
                     line-height: 2.14;
                     text-transform: uppercase;
-                    letter-spacing: 4px;
+                    letter-spacing: 3px;
                 }
             }
         }
@@ -93,15 +94,11 @@
             display: flex;
             
             ul {
-                margin-right: 100px;
-                
+                margin-right: 100px;                
 
                 li {
-
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-
-
+                    padding-top: 11px;
+                    padding-bottom: 11px;
                     a {
                         font-size: 18px;
                         font-weight: 400;
