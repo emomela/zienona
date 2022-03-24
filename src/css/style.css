@@ -387,7 +387,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .pr-card-amount-plus::after { content: ""; position: absolute; width: 10px; height: 2px; top: 50%; left: 50%; margin-top: -1px; margin-left: -5px; background: #535353; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); }
 
-.products-top { width: 100%; height: 563px; background: no-repeat center #e99d9d url(../images/background2.png); padding-top: 175px; padding-left: 230px; }
+.products-top { width: 100%; height: 563px; background: no-repeat center #e99d9d url(../images/background2.png); padding-top: 155px; padding-left: 230px; }
 
 .products-top-title { position: relative; color: #ffffff; font-size: 101px; font-weight: 900; margin-bottom: 80px; }
 
@@ -455,6 +455,12 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .category-products-row { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-bottom: 130px; }
 
+.category-products-row .cp-slide-img { margin-bottom: 25px; }
+
+.category-products-row .cp-slide-title { font-weight: 900; }
+
+.category-products-row .cp-slide-category { text-transform: uppercase; margin-bottom: 30px; }
+
 .cp-slide-img { width: 314px; height: 314px; border-radius: 10px; margin-bottom: 40px; }
 
 .cp-slide-title { font-size: 30px; font-weight: 700; color: #000000; margin-bottom: 12px; }
@@ -465,7 +471,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .cp-slide-btn:hover { background-color: #8db396; }
 
-.catalog-pgn { padding: 0; margin: 50px 0 50px 0; text-align: center; }
+.catalog-pgn { padding: 0; margin: 50px 0 100px 0; text-align: center; }
 
 .pgn-links { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
 
@@ -481,7 +487,7 @@ body { max-width: 1920px; margin: 0 auto; }
 
 .catalog-list { padding-left: 135px; padding-right: 95px; }
 
-.category-filters { width: 1725px; margin: 0 auto; padding-left: 115px; display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
+.category-filters { width: 1725px; margin: 0 auto; padding-left: 80px; display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
 
 .category-filters:after { content: ''; position: absolute; background-color: #000000; height: 2px; width: 70px; top: 22%; left: 0; }
 
