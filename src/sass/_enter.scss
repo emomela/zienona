@@ -3,13 +3,14 @@
     margin: 0 auto;
     position: relative;
     padding-top: 20px;
-    z-index: 3;    
+    z-index: 1;    
 
-    .enter-page-title-pos {
-        position: absolute;
+    .enter-page-title-pos {        
         margin-top: -80px;
         left: 32%;
      }
+
+     
 
 }
 
@@ -17,6 +18,8 @@
     margin: 0 auto;
     position: relative;
     width: 1920px;
+    z-index: 1;
+
     &::after {
         content: url('../images/back4.png');
         position: absolute;        
@@ -24,7 +27,9 @@
         height: 1204px;
         top: -217px;
         left: 0px;
+        z-index: -1;
     }
+    
 }
 
 .enter-page-title {
@@ -41,7 +46,7 @@
 
 .enter-page-bottom {
     padding-bottom: 25px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .enter-page-field {
@@ -116,6 +121,7 @@
     text-align: center;
     vertical-align: middle;
     margin-bottom: 60px;
+    text-transform: lowercase;
     
     &:hover {
         background-color: #8db396;
