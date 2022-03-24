@@ -1,16 +1,16 @@
-.product-page {
-    width: 1600px;
-    margin: 0 auto;
-    margin-top: 10px;
+.product-page-wrap {
+    z-index: 1;
+    position: relative;
 
-     &::after {
+    &::after {
         content: '';
         position: absolute;
         background-image: url('../images/back.png');
         width: 1084px;
         height: 1418px;         
         top: 300px;
-        left: 0;                    
+        left: 0;
+        z-index: -1;    
     }
 
     &::before {
@@ -20,9 +20,17 @@
         width: 531px;
         height: 796px;         
         top: 1200px;
-        right: 0;
-            
+        right: 0;            
     }
+
+}
+
+.product-page {
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    
 }
 
 
