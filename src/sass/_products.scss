@@ -55,26 +55,31 @@
     border-radius: 9px;
     padding-top: 38px;
     position: relative;
-    cursor: pointer;
+    cursor: pointer;      
 
     &:hover {
         font-weight: 700;
         opacity: 0.8;
-        color: #000;
+        color: #000;        
     }
     
     &-body {
-        background-color: #8db396;
+        background-color: #8db396;    
+        
+        
 
-        .pc-tag-img {position: absolute;
+        .pc-tag-img {
+            position: absolute;
             height: 64px;
             margin-left: -85px;
-            margin-top: -15px;}
+            margin-top: -15px;            
+        }
 
         
     }
     &-body:hover .bg-body {
         background-position: -10px -175px;
+        
     }
     
     &-face {
@@ -189,15 +194,17 @@
 }
 
 .category-products {
-    width: 1780px;
+    width: 1710px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 60px;
+    padding-left: 50px;
 
 
     &-row {
         display: flex;
-        justify-content: space-between;
-        margin-bottom: 130px;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        
 
         .cp-slide-img {
             margin-bottom: 25px;
@@ -216,6 +223,12 @@
 }
 
 .cp-slide {
+    margin-bottom: 130px;
+    flex: 25%;
+    max-width: 25%;
+    padding-left: 48px;
+    padding-right: 48px;
+
     &-img {
         width: 314px;
         height: 314px;
@@ -259,9 +272,8 @@
 
 .catalog-pgn {
     padding: 0;
-    margin: 50px 0 100px 0;
+    margin-bottom: 100px;
     text-align: center;
-
 }
 
 .pgn-links {
@@ -297,10 +309,6 @@
     }
 }
 
-.catalog-list {
-    padding-left: 135px;
-    padding-right: 95px;
-}
 
 .category-filters {
     width: 1725px;
@@ -327,7 +335,7 @@
             position: relative;
             width: 275px;
             margin: 0 auto;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
 
 
