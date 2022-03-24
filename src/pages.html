@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Zienona</title>
 </head>
@@ -44,7 +45,7 @@
         <main class="main">
 
             <div class="block-pages"
-                style="min-width: 100%; padding: 70px 300px 300px 300px; height: calc(100vh - 425px);">
+                style="min-width: 100%; padding: 70px 300px 300px 300px; min-height: calc(100vh - 425px);">
 
                 <p class="" style="font-size: 36px; font-weight: 700; margin-bottom: 50px;">Список сверстанных страниц
                 </p>
@@ -79,9 +80,44 @@
                         <a style="color: black; font-size: 20px; font-weight: 500;" href="./basket.html">7. Корзина
                             товары</a>
                     </li>
+                    <li style="margin-bottom: 20px;">
+                        <a style="color: black; font-size: 20px; font-weight: 500;" href="#password-recovery"
+                            class="link-password-recovery">8. Попап
+                            Восстановление пароля 1</a>
+                    </li>
+                    <li style="margin-bottom: 20px;">
+                        <a style="color: black; font-size: 20px; font-weight: 500;" href="#sent-to-mail"
+                            class="link-sent-to-mail">9. Попап
+                            Восстановление пароля, отправлено на почту</a>
+                    </li>
                 </ul>
 
 
+
+
+            </div>
+
+            <div id="password-recovery" class="mfp-hide password-recovery-popup">
+                <div class="password-recovery-title">Zapomniałeś hasła?</div>
+                <div class="password-recovery-field">
+                    <input type="text" name="email" class="password-recovery-input"
+                        placeholder="Логин / Телефон / E-mail">
+                </div>
+                <div class="password-recovery-wrap-link">
+                    <a href="#" class="password-recovery-btn-link">
+                        <div class="password-recovery-btn">ДАлее</div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="sent-to-mail" class="mfp-hi de sent-to-mail-popup">
+                <div class="sent-to-mail-icon">
+                    <img src="./images/letter.png" alt="sent-to-mail">
+                </div>
+                <div class="sent-to-mail-title">Wysłaliśmy Ci e-mail Sprawdź swoją pocztę</div>
+                <div class="sent-to-mail-info">Na adres a***k@gmail.com wysłaliśmy wiadomość z linkiem do strony
+                    Zienona,
+                    na której ustalisz swoje nowe hasło.</div>
 
 
             </div>
@@ -167,8 +203,10 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="./scripts/slider.js"></script>
     <script src="./scripts/tabs.js"></script>
+    <script src="./scripts/popup.js"></script>
 </body>
 
 </html>
