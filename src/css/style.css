@@ -469,7 +469,7 @@ a:hover { text-decoration: none; }
 
 .cp-slide-category { font-size: 12px; font-weight: 700; color: #000000; margin-bottom: 35px; }
 
-.cp-slide-btn { display: inline-block; vertical-align: middle; padding: 0 77px; height: 44px; line-height: 42px; font-size: 20px; font-weight: 300; color: #ffffff; background-color: #e99d9d; text-transform: lowercase; border-radius: 10px; -webkit-transition: background-color .2s; -o-transition: background-color .2s; transition: background-color .2s; }
+.cp-slide-btn { display: inline-block; vertical-align: middle; padding: 0 77px; height: 44px; line-height: 42px; font-size: 20px; font-weight: 300; color: #ffffff; background-color: #e99d9d; text-transform: lowercase; border-radius: 10px; -webkit-transition: background-color .2s; -o-transition: background-color .2s; transition: background-color .2s; cursor: pointer; }
 
 .cp-slide-btn:hover { background-color: #8db396; -webkit-transition: background-color .2s; -o-transition: background-color .2s; transition: background-color .2s; }
 

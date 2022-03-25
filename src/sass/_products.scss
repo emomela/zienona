@@ -270,6 +270,7 @@
         text-transform: lowercase;                
         border-radius: 10px;
         transition: background-color .2s;
+        cursor: pointer;
 
         &:hover {
             background-color: $green-btn;
