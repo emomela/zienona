@@ -57,13 +57,13 @@
     padding-top: 38px;
     position: relative;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: font-weight .2s, opacity .2s, color .2s, filter .2s ; 
 
     &:hover {
         font-weight: 700;
         opacity: 0.8;
         color: #000;
-        transition: all 0.2s;    
+        transition: font-weight .2s, opacity .2s, color .2s, filter .2s ; 
     }
     
     &-body {
@@ -72,7 +72,8 @@
             position: absolute;
             height: 64px;
             margin-left: -85px;
-            margin-top: -15px;           
+            margin-top: -15px;
+            transition: font-weight .2s, opacity .2s, color .2s, filter .2s ;           
         }        
     }
     &-body:hover .bg-body {
@@ -85,6 +86,7 @@
             position: absolute;            
             margin-left: -85px;
             margin-top: -10px;
+            transition: font-weight .2s, opacity .2s, color .2s, filter .2s ; 
         }
         &:hover .bg-face {
             background-position: -181px -85px;
@@ -97,7 +99,8 @@
         .pc-tag-img {
             position: absolute;           
             margin-left: -90px;
-            top: 23px;  
+            top: 23px;
+            transition: font-weight .2s, opacity .2s, color .2s, filter .2s ; 
         }
         &:hover .bg-hands {
             background-position: -10px -10px;
@@ -110,6 +113,7 @@
             position: absolute;            
             margin-left: -85px;
             margin-top: -15px;
+            transition: font-weight .2s, opacity .2s, color .2s, filter .2s ; 
         }
         &:hover .bg-hair {
             background-position: -82px -95px;
@@ -123,6 +127,7 @@
             position: absolute;            
             margin-left: -65px;
             margin-top: -15px;
+            transition: font-weight .2s, opacity .2s, color .2s, filter .2s ; 
         }
         &:hover .bg-men {
             background-position: -256px -155px;
@@ -135,6 +140,7 @@
             position: absolute;            
             margin-left: -85px;
             margin-top: -10px;
+            transition: font-weight .2s, opacity .2s, color .2s, filter .2s ; 
         }
         &:hover .bg-other {
             background-position: -256px -10px;
@@ -167,11 +173,13 @@
     border-radius: 9px;
     text-align: center;
     vertical-align: middle;
+    transition: color .2s, background-color .2s;
     
 
     &:hover {
         color: $black;
         background-color: #c6d9ca;
+        transition: color .2s, background-color .2s;
     }
 }
 
@@ -261,9 +269,11 @@
         background-color: $peach;
         text-transform: lowercase;                
         border-radius: 10px;
+        transition: background-color .2s;
 
         &:hover {
             background-color: $green-btn;
+            transition: background-color .2s;
         }
     }
 }
@@ -286,9 +296,11 @@
     font-weight: 900;
     color: #a1a1a1;
     margin: 0 20px;
+    transition: color .2s;
 
         &:hover {
             color: #000000;
+            transition: color .2s;
         }
 
     &-current {
@@ -300,9 +312,11 @@
 
     &-arrow {
         opacity: 0.5;
+        transition: opacity .2s;
 
         &:hover {
             opacity: 1;
+            transition: opacity .2s;
         }
     }
 }
@@ -508,5 +522,5 @@
 
 .pc-tag:hover .pc-tag-img{
             filter: brightness(0);
-            transition: all 0.2s;
+            transition: font-weight .2s, opacity .2s, color .2s, filter .2s ; 
         }
