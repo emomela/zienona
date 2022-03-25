@@ -399,9 +399,9 @@ a:hover { text-decoration: none; }
 
 .pc-row-top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-bottom: 55px; }
 
-.pc-tag { width: 270px; height: 101px; padding-left: 135px; font-size: 25px; font-weight: 400; color: #ffffff; border-radius: 9px; padding-top: 38px; position: relative; cursor: pointer; }
+.pc-tag { width: 270px; height: 101px; padding-left: 135px; font-size: 25px; font-weight: 400; color: #ffffff; border-radius: 9px; padding-top: 38px; position: relative; cursor: pointer; -webkit-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
 
-.pc-tag:hover { font-weight: 700; opacity: 0.8; color: #000; }
+.pc-tag:hover { font-weight: 700; opacity: 0.8; color: #000; -webkit-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
 
 .pc-tag-body { background-color: #8db396; }
 
@@ -534,6 +534,8 @@ a:hover { text-decoration: none; }
 
 /* стили при наведении курсора на checkbox */
 .category-filters-checkbox:not(:disabled):not(:checked) + label:hover::before { border-color: #e99d9d; }
+
+.pc-tag:hover .pc-tag-img { -webkit-filter: brightness(0); filter: brightness(0); -webkit-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
 
 .account-page-wrap { width: 1175px; margin: 0 auto; }
 

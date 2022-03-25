@@ -56,58 +56,54 @@
     border-radius: 9px;
     padding-top: 38px;
     position: relative;
-    cursor: pointer;      
+    cursor: pointer;
+    transition: all 0.2s;
 
     &:hover {
         font-weight: 700;
         opacity: 0.8;
-        color: #000;        
+        color: #000;
+        transition: all 0.2s;    
     }
     
     &-body {
-        background-color: #8db396;    
-        
-        
-
+        background-color: #8db396; 
         .pc-tag-img {
             position: absolute;
             height: 64px;
             margin-left: -85px;
-            margin-top: -15px;            
-        }
-
-        
+            margin-top: -15px;           
+        }        
     }
     &-body:hover .bg-body {
-        background-position: -10px -175px;
-        
-    }
-    
+        background-position: -10px -175px;        
+    }    
+
     &-face {
         background-color: #9faf95;
-
         .pc-tag-img {
             position: absolute;            
             margin-left: -85px;
             margin-top: -10px;
         }
-
         &:hover .bg-face {
             background-position: -181px -85px;
         }
     }
+
     &-hands {
         background-color: #aeab98;
         padding-top: 26px;
         .pc-tag-img {
             position: absolute;           
             margin-left: -90px;
-            top: 23px;            
+            top: 23px;  
         }
         &:hover .bg-hands {
             background-position: -10px -10px;
         }
     }
+
     &-hair {
         background-color: #c3a79b;
         .pc-tag-img {
@@ -119,6 +115,7 @@
             background-position: -82px -95px;
         }
     }
+    
     &-men {
         background-color: #e59d9e;
         padding-left: 105px;
@@ -508,3 +505,8 @@
 .category-filters-checkbox:not(:disabled):not(:checked)+label:hover::before {
   border-color: #e99d9d;
 }
+
+.pc-tag:hover .pc-tag-img{
+            filter: brightness(0);
+            transition: all 0.2s;
+        }
