@@ -1,7 +1,10 @@
 .footer {
-    position: relative;
-    width: 1920px;
-    margin: 0 auto;
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.footer-wrap {
+    position: relative;    
     background-color: $green;
     z-index: 99;
 
@@ -27,7 +30,7 @@
                     height: 2px;
                     width: 800px;
                     top: 100px;
-                    left: -233px;
+                    right: 0px;
                 }
 
                 .footer-social-links-icons {
@@ -117,4 +120,11 @@
             
         }
     }
+}
+
+.footer-inner {
+    width: 1920px;
+    margin: 0 auto;
+    padding-left: 115px;
+    padding-right: 115px;
 }

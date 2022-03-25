@@ -1,25 +1,21 @@
 .header {
     position: relative;
-    width: 1920px;
-    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(233,157,157,1) 33%, rgba(233,157,157,0) 100%);
+    
     z-index: 99;
 
-    .h-wrap {
-        position: absolute;
-        top:0;  
+    .h-wrap {        
         width: 100%;
-         display: flex;
-         justify-content: space-between;
-                  
-         align-items: center;
-         padding-top: 35px;
-         padding-right: 115px;
-         padding-left: 60px;
-         padding-bottom: 35px;
+        display: flex;
+        justify-content: space-between;                  
+        align-items: center;
+        padding-top: 35px;
+        padding-right: 115px;
+        padding-left: 60px;
+        padding-bottom: 35px;
 
         .h-left {
             display: flex;
-
             .h-logo {
                  margin-right: 70px;
             }
@@ -63,8 +59,16 @@
 
 }
 
-.header-pink {
-    background: no-repeat center #ffffff00 url('../images/header-pink.png');
+.header-pink {    
     height: 217px;
     z-index: 55;     
+}
+
+.header-inner {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header-index {
+    background: none !important;    
 }
