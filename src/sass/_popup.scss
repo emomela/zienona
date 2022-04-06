@@ -77,6 +77,8 @@
 }
 
 .password-recovery-btn-link {
+  border: none; 
+  outline: none;
   display: inline-block;
   width: 255px;
   cursor: pointer;
@@ -101,8 +103,7 @@
   text-align: center;
   height: 44px;
   display: flex;    
-  align-items: center;
-    
+  align-items: center;    
 }
 
 
@@ -117,5 +118,26 @@
   padding-top: 45px;
   padding-left: 32px;
   padding-right: 32px;
+  text-align: center;
+}
 
+.sent-to-mail-icon {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sent-to-mail-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  text-transform: uppercase;
+  width: 400px;
+}
+
+.sent-to-mail-info {
+  width: 450px;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 400;
 }

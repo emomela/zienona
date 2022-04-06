@@ -750,10 +750,16 @@ a:hover { text-decoration: none; }
 
 .password-recovery-wrap-link { text-align: center; }
 
-.password-recovery-btn-link { display: inline-block; width: 255px; cursor: pointer; height: 44px; background-color: #e99d9d; color: #ffffff; font-weight: 300; font-size: 20px; border-radius: 9px; text-align: center; vertical-align: middle; margin-bottom: 60px; text-transform: lowercase; }
+.password-recovery-btn-link { border: none; outline: none; display: inline-block; width: 255px; cursor: pointer; height: 44px; background-color: #e99d9d; color: #ffffff; font-weight: 300; font-size: 20px; border-radius: 9px; text-align: center; vertical-align: middle; margin-bottom: 60px; text-transform: lowercase; }
 
 .password-recovery-btn-link:hover { background-color: #8db396; }
 
 .password-recovery-btn { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; height: 44px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.sent-to-mail-popup { width: 756px; height: 404px; margin: 0 auto; position: relative; background-color: transparent; background-image: url("../images/back5.png"); padding-top: 45px; padding-left: 32px; padding-right: 32px; }
+.sent-to-mail-popup { width: 756px; height: 404px; margin: 0 auto; position: relative; background-color: transparent; background-image: url("../images/back5.png"); padding-top: 45px; padding-left: 32px; padding-right: 32px; text-align: center; }
+
+.sent-to-mail-icon { text-align: center; margin-bottom: 50px; }
+
+.sent-to-mail-title { font-weight: 700; font-size: 30px; margin: 0 auto; margin-bottom: 55px; text-transform: uppercase; width: 400px; }
+
+.sent-to-mail-info { width: 450px; margin: 0 auto; font-size: 12px; font-weight: 400; }
