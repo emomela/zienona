@@ -281,11 +281,11 @@ a:hover { text-decoration: none; }
 
 .op-slider { overflow: hidden; }
 
-.op-slide-img { width: 314px; height: 314px; border-radius: 10px; margin-bottom: 40px; }
+.op-slide-img { width: 314px; height: 314px; border-radius: 10px; margin-bottom: 25px; }
 
-.op-slide-title { font-size: 30px; font-weight: 700; color: #000000; margin-bottom: 12px; }
+.op-slide-title { font-size: 30px; font-weight: 900; color: #000000; margin-bottom: 12px; }
 
-.op-slide-category { font-size: 12px; font-weight: 700; color: #000000; margin-bottom: 35px; }
+.op-slide-category { font-size: 12px; font-weight: 700; color: #000000; margin-bottom: 25px; text-transform: uppercase; }
 
 .op-slide-btn { display: inline-block; vertical-align: middle; padding: 0 77px; height: 44px; line-height: 42px; font-size: 20px; font-weight: 300; color: #ffffff; background-color: #e99d9d; text-transform: lowercase; border-radius: 10px; }
 
