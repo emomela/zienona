@@ -109,6 +109,9 @@
 }
 
 .enter-page-btn {
+    font-family: "Raleway", sans-serif;
+    outline: none;
+    border: none;
     display: inline-block;
     width: 255px;
     cursor: pointer;
@@ -133,8 +136,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 44px;
-    
+    height: 44px;    
 }
 
 .registration-page {

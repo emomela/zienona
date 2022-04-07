@@ -599,7 +599,7 @@ a:hover { text-decoration: none; }
 
 .enter-page-link:hover { color: #e99d9d; }
 
-.enter-page-btn { display: inline-block; width: 255px; cursor: pointer; height: 44px; background-color: #e99d9d; color: #ffffff; font-weight: 300; font-size: 20px; border-radius: 9px; text-align: center; vertical-align: middle; margin-bottom: 60px; text-transform: lowercase; }
+.enter-page-btn { font-family: "Raleway", sans-serif; outline: none; border: none; display: inline-block; width: 255px; cursor: pointer; height: 44px; background-color: #e99d9d; color: #ffffff; font-weight: 300; font-size: 20px; border-radius: 9px; text-align: center; vertical-align: middle; margin-bottom: 60px; text-transform: lowercase; }
 
 .enter-page-btn:hover { background-color: #8db396; }
 
