@@ -1,0 +1,62 @@
+.errorpage-wrap {  
+  min-height: 100vh;
+  background-color: #fa9ead;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.errorpage-img {  
+  width: 1920px;
+  margin: 0 auto;
+  background-image:url('../images/background404.png');
+  background-color: #fa9ead;  
+  min-height: 100vh;
+  padding-left: 180px;
+  padding-top: 600px;
+}
+
+.errorpage-info {
+  width: 290px;
+
+  &-text {
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+
+    p {
+      font-weight: 700;      
+    }
+  }
+}
+
+.errorpage-info-button {
+
+
+
+  a {
+    font-weight: 300;
+    font-size: 20px;
+    color:#fa9ead;
+    text-transform: lowercase;
+
+
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 44px;
+    height: 44px;
+    line-height: 42px;
+    
+    background-color: #FFFFFF;
+    
+    border-radius: 10px;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #fff7f8;
+    }
+  }
+}
