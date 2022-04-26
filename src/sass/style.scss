@@ -33,6 +33,14 @@ html {
     display: flex;
 }
 
+body {
+    font-family: $basefont, sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: black;
+    padding: 0; 
+}
+
 @import "ui";
 @import "sprite";
 @import "header";

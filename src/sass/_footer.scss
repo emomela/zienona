@@ -15,6 +15,7 @@
 
         .footer-contacts {
             display: block;
+            max-width: 25%;
 
             .footer-social-links {
                 padding-top: 20px;
@@ -98,15 +99,18 @@
             display: flex;
             
             ul {
-                margin-right: 100px;                
+                margin-right: 100px;
+                max-width: 25%;                
 
                 li {
                     padding-top: 11px;
                     padding-bottom: 11px;
+
                     a {
                         font-size: 18px;
                         font-weight: 400;
                         color: $black;
+                        white-space: nowrap;
                     }
                 }
             }
