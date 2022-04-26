@@ -291,7 +291,7 @@ a:hover { text-decoration: none; }
 
 .op-slide-category { font-size: 12px; font-weight: 700; color: #000000; margin-bottom: 25px; text-transform: uppercase; }
 
-.op-slide-btn { display: inline-block; vertical-align: middle; padding: 0 77px; height: 44px; line-height: 42px; font-size: 20px; font-weight: 300; color: #ffffff; background-color: #e99d9d; text-transform: lowercase; border-radius: 10px; }
+.op-slide-btn { display: inline-block; vertical-align: middle; padding: 0 77px; height: 44px; line-height: 42px; font-size: 20px; font-weight: 300; color: #ffffff; background-color: #e99d9d; text-transform: lowercase; border-radius: 10px; cursor: pointer; }
 
 .op-slide-btn:hover { background-color: #8db396; }
 
@@ -371,7 +371,7 @@ a:hover { text-decoration: none; }
 
 .pr-card-cost { padding-top: 5px; font-size: 40px; font-weight: 900; }
 
-.pr-card-btn { display: inline-block; vertical-align: middle; padding: 0 77px; height: 44px; line-height: 42px; font-size: 20px; font-weight: 300; color: #ffffff; background-color: #e99d9d; text-transform: lowercase; border-radius: 10px; }
+.pr-card-btn { display: inline-block; vertical-align: middle; padding: 0 77px; height: 44px; line-height: 42px; font-size: 20px; font-weight: 300; color: #ffffff; background-color: #e99d9d; text-transform: lowercase; border-radius: 10px; cursor: pointer; }
 
 .pr-card-btn:hover { background: #8db396; }
 
