@@ -16,6 +16,7 @@
 
         .h-left {
             display: flex;
+
             .h-logo {
                  margin-right: 70px;
             }
@@ -46,6 +47,9 @@
         }
 
          .h-right {
+             display: flex;
+             align-items: center;
+
             a {
              margin-left: 25px;
              color: $black;
@@ -71,4 +75,58 @@
 
 .header-index {
     background: none !important;    
+}
+
+
+.header-search {
+  display: flex;
+  
+}
+
+.search-input {
+  background: #ffffff;
+  color: #000;
+  border: 1px solid #ffffff;
+  border-radius: 9px;
+  padding: 0px 20px;
+  height: 44px;
+  width: 295px;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none !important;
+  margin-right: 7px;
+}
+
+.header-search-btn {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 9px;
+  padding-left: 50px;
+  padding-right: 33px;
+  height: 44px;
+  width: 130px;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none !important;
+  text-transform: lowercase;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+      background: #1d1d1d;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 28px;
+    top: 50%;
+    margin-top: -5px;
+    width: 11px;
+    height: 11px;
+    background: url(../images/search-icon.png) center no-repeat;
+    background-size: contain;
+    
+  }
 }

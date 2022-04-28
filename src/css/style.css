@@ -85,6 +85,8 @@ a:hover { text-decoration: none; }
 
 .header .h-wrap .h-left .h-nav ul li a:hover { font-weight: 800; }
 
+.header .h-wrap .h-right { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
 .header .h-wrap .h-right a { margin-left: 25px; color: #000000; font-size: 21px; font-weight: 900; }
 
 .header-pink { height: 217px; z-index: 55; }
@@ -92,6 +94,16 @@ a:hover { text-decoration: none; }
 .header-inner { width: 100%; margin: 0 auto; }
 
 .header-index { background: none !important; }
+
+.header-search { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.search-input { background: #ffffff; color: #000; border: 1px solid #ffffff; border-radius: 9px; padding: 0px 20px; height: 44px; width: 295px; font-size: 15px; font-weight: 400; outline: none !important; margin-right: 7px; }
+
+.header-search-btn { background: #000000; color: #ffffff; border: 1px solid #000000; border-radius: 9px; padding-left: 50px; padding-right: 33px; height: 44px; width: 130px; font-size: 15px; font-weight: 400; outline: none !important; text-transform: lowercase; position: relative; cursor: pointer; }
+
+.header-search-btn:hover { background: #1d1d1d; }
+
+.header-search-btn::before { content: ""; position: absolute; left: 28px; top: 50%; margin-top: -5px; width: 11px; height: 11px; background: url(../images/search-icon.png) center no-repeat; background-size: contain; }
 
 .insta-block { width: 1680px; margin: 0 auto; position: relative; }
 
@@ -789,3 +801,39 @@ a:hover { text-decoration: none; }
 .errorpage-info-button a { font-weight: 300; font-size: 20px; color: #fa9ead; text-transform: lowercase; display: inline-block; vertical-align: middle; padding: 0 44px; height: 44px; line-height: 42px; background-color: #FFFFFF; border-radius: 10px; white-space: nowrap; }
 
 .errorpage-info-button a:hover { background-color: #fff7f8; }
+
+.search-list-cont { width: 1190px; margin: 0 auto; }
+
+.search-title { font-size: 30px; font-weight: 700; margin-right: 30px; }
+
+.search-list-name { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; padding-bottom: 80px; }
+
+.search-request { font-size: 15px; font-weight: 400; position: relative; }
+
+.search-item-img { cursor: pointer; }
+
+.search-item-img img { width: 150px; height: 150px; }
+
+.search-item { padding: 42px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.search-item .search-item-pic { width: 18%; }
+
+.search-item .search-item-descr { width: 60%; }
+
+.search-item .search-item-price { width: 22%; }
+
+.search-item:not(:last-child) { border-bottom: 1px solid #000; }
+
+.search-item-title { font-size: 30px; font-weight: 900; margin-bottom: 15px; }
+
+.search-results { background-color: #e99d9d; border-radius: 10px; display: inline-block; padding-left: 10px; padding-right: 10px; }
+
+.search-item-category { display: -webkit-box; display: -ms-flexbox; display: flex; font-weight: 700; font-size: 12px; text-transform: uppercase; }
+
+.search-item-price { font-size: 30px; font-weight: 900; text-align: right; position: relative; }
+
+.search-item-price::before { content: '60.00 zł'; white-space: nowrap; position: absolute; font-size: 15px; font-weight: 400; text-decoration: line-through; top: 15px; right: 155px; }
+
+.search-item-price::after { content: '-50%'; white-space: nowrap; position: absolute; font-size: 15px; font-weight: 700; color: #e99d9d; top: 35px; right: 0px; }
+
+.search-request-request { display: inline-block; padding: 10px 15px; background-color: #e99d9d; border-radius: 10px; font-weight: 700; font-size: 20px; letter-spacing: 2px; position: absolute; top: 30px; left: 0; }
