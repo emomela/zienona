@@ -804,11 +804,15 @@ a:hover { text-decoration: none; }
 
 .search-list-cont { width: 1190px; margin: 0 auto; }
 
+.search-list-page { min-height: calc(100vh - 620px); }
+
 .search-title { font-size: 30px; font-weight: 700; margin-right: 30px; letter-spacing: 1.5px; }
 
-.search-list-name { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; padding-bottom: 60px; padding-top: 40px; }
+.search-list-name { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; padding-bottom: 0px; padding-top: 40px; }
 
 .search-request { font-size: 15px; font-weight: 400; position: relative; }
+
+.search-request p { margin-bottom: 70px; }
 
 .search-item-img { cursor: pointer; width: 150px; height: 150px; }
 
