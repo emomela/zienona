@@ -165,6 +165,7 @@
 
 .cart-item-sum {
   text-align: right;
+  position: relative;
 }
 
 .cart-item-price {
@@ -173,30 +174,33 @@
   color: #000;
   position: relative;
   text-align: right;
-  margin-top: 15px;
-  margin-bottom: 75px;
-
-  &::before {
-        content: '60.00 zł';
-        white-space: nowrap;
-        position: absolute;
-        font-size: 15px;
-        font-weight: 400;
-        text-decoration:line-through;
-        top: 15px;
-        right: 155px;               
-    }
-  &::after {
-        content: '-50%';
-        white-space: nowrap;
-        position: absolute;
-        font-size: 15px;
-        font-weight: 700;
-        color: #e99d9d;
-        top: 35px;
-        right: 0px;               
-    }  
+  
+  margin-bottom: 75px; 
+ 
 }
+
+.cart-item-oldprice {
+  white-space: nowrap;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration:line-through;
+  top: 15px;
+  right: 155px; 
+
+}
+
+.search-icon-discount {
+  white-space: nowrap;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 700;
+  color: #e99d9d;
+  top: 35px;
+  right: 0px;  
+
+}
+
 
 .cart-item-delete {
   font-size: 12px;
