@@ -6,13 +6,15 @@
 .search-title {
   font-size: 30px;
   font-weight: 700;
-  margin-right: 30px;  
+  margin-right: 30px;
+  letter-spacing: 1.5px;
 }
 
 .search-list-name {
   display: flex;
   align-items: baseline;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
+  padding-top: 40px;
 }
 
 .search-request {
@@ -25,6 +27,8 @@
 
 .search-item-img {
   cursor: pointer;
+  width: 150px;
+  height: 150px;
   
 
   img {
@@ -38,6 +42,8 @@
   padding: 42px 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  
 
   .search-item-pic {
     width: 18%;
@@ -45,11 +51,11 @@
 
   .search-item-descr {
     width: 60%;
+    margin-left: -150px;
   }
 
   .search-item-price {
     width: 22%;
-
   }
 
 }
@@ -61,7 +67,7 @@
 .search-item-title {
   font-size: 30px;
   font-weight: 900;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .search-results {
@@ -84,28 +90,8 @@
   font-weight: 900;
   text-align: right;
   position: relative;
-
-  &::before {
-        content: '60.00 zł';
-        white-space: nowrap;
-        position: absolute;
-        font-size: 15px;
-        font-weight: 400;
-        text-decoration:line-through;
-        top: 15px;
-        right: 155px;               
-    }
-  &::after {
-        content: '-50%';
-        white-space: nowrap;
-        position: absolute;
-        font-size: 15px;
-        font-weight: 700;
-        color: #e99d9d;
-        top: 35px;
-        right: 0px;               
-    }  
-
+  white-space: nowrap;
+  
 }
 
 .search-request-request {
@@ -119,5 +105,31 @@
   position: absolute;
   top: 30px;
   left: 0;
+}
+
+.search-item-price-box {
+  position: relative;
+  text-align: right;
+  margin-top: -10px;  
+}
+
+.search-item-oldprice {
+  white-space: nowrap;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration:line-through;
+  top: 15px;
+  right: 140px;   
+}
+
+.search-icon-discount {
+  white-space: nowrap;
+        position: absolute;
+        font-size: 15px;
+        font-weight: 700;
+        color: #e99d9d;
+        top: 35px;
+        right: 0px;  
 }
 
