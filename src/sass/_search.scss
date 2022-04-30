@@ -34,14 +34,10 @@
 
 
 .search-item-img {
-  cursor: pointer;
-  width: 150px;
-  height: 150px;
-  
+  cursor: pointer;  
 
   img {
-    width: 150px;
-    height: 150px;
+    border-radius: 10px;
   }
   
 }
@@ -55,6 +51,7 @@
 
   .search-item-pic {
     width: 18%;
+    padding-right: 67px;
   }
 
   .search-item-descr {
@@ -87,7 +84,6 @@
 }
 
 .search-item-category {
-  display: flex;
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
