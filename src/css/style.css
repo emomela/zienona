@@ -843,3 +843,5 @@ span.search-results { background-color: #e99d9d; border-radius: 10px; display: i
 .search-item-discount { white-space: nowrap; font-size: 15px; font-weight: 700; color: #e99d9d; }
 
 .search-request-request { display: inline-block; padding: 10px 15px; background-color: #e99d9d; border-radius: 10px; font-weight: 700; font-size: 20px; letter-spacing: 2px; position: absolute; top: 30px; left: 0; }
+
+.products-page-search-result .search-list-name { width: 1710px; margin: 0 auto; }
