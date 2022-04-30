@@ -7,95 +7,97 @@
     position: relative;    
     background-color: $green;
     z-index: 99;
+}
 
-    .footer-top {        
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+.footer-top {        
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        .footer-contacts {
-            display: block;
-            max-width: 25%;
-
-            .footer-social-links {
-                padding-top: 20px;
-                display: flex;
-                height: 100px;
-                align-items: center;
-                position: relative;
-
-                &:before {
-                    content: '';
-                    position: absolute;
-                    background-color: #c1d4c5;
-                    height: 2px;
-                    width: 800px;
-                    top: 100px;
-                    right: 0px;
-                }
-
-                .footer-social-links-icons {
-                    display: flex;
-                    
-
-                    a {
-                        display: inline-block;
-                        margin-right: 35px;
-                    }
-                }
-
-                .footer-social-links-mail {
-                    position: relative;
-                    padding-left: 50px;
-
-                    &:before {
-                        content: '';
-                        position: absolute;
-                        height: 40px;
-                        width: 1px;
-                        background-color: #b4d3d3;
-                        left: 0;
-                        top: 0px;
-                    }
-
-                    p {
-                        font-weight: 800;
-                        font-size: 14px;
-                        line-height: 2.14;
-                        text-transform: uppercase;
-                        letter-spacing: 3px;
-                        
-                    }
-
-                    a {
-                        position: absolute;
-                        right: -45px;
-                        top: 5px;
-                    }
-                }
-            }
-
-            .footer-tel {
-                height: 100px;
-                text-align: right;
-                padding-top: 22px;        
+.footer-contacts {
+    display: block;
+    max-width: 25%;
+        .footer-tel {
+            height: 100px;
+            text-align: right;
+            padding-top: 22px;        
                 
-                p {
-                    padding: 3px 0;
-                    font-weight: 800;
-                    font-size: 14px;
-                    line-height: 2.14;
-                    text-transform: uppercase;
-                    letter-spacing: 3px;
+            p {
+                padding: 3px 0;
+                font-weight: 800;
+                font-size: 14px;
+                line-height: 2.14;
+                text-transform: uppercase;
+                letter-spacing: 3px;
                 }
             }
         }
-    }
+
+.footer-social-links {
+    padding-top: 20px;
+        display: flex;
+        height: 100px;
+        align-items: center;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            background-color: #c1d4c5;
+            height: 2px;
+            width: 800px;
+            top: 100px;
+            right: 0px;
+        }
+
+        .footer-social-links-icons {
+            display: flex;                    
+
+            a {
+                display: inline-block;
+                margin-right: 35px;
+            }
+        }
+
+        .footer-social-links-mail {
+            position: relative;
+            padding-left: 50px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 40px;
+                width: 1px;
+                background-color: #b4d3d3;
+                left: 0;
+                top: 0px;
+            }
+
+            p {
+                font-weight: 800;
+                font-size: 14px;
+                line-height: 2.14;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                        
+            }
+
+            a {
+                position: absolute;
+                right: -45px;
+                top: 5px;
+            }
+        }
+    }        
 
     .footer-bottom {
         padding-bottom: 40px;
         
-        .footer-nav {
+        
+    }
+
+.footer-nav {
             display: flex;
             
             ul {
@@ -122,9 +124,7 @@
             font-size: 15px;
             line-height: 2.14;
             
-        }
-    }
-}
+        }    
 
 .footer-inner {
     width: 1920px;
