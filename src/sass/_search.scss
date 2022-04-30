@@ -136,5 +136,26 @@ span.search-results {
     width: 1510px;
     margin: 0 auto;
   }
+
+  &::after {
+        content: '';
+        position: absolute;
+        background-image: url('../images/back.png');
+        width: 1084px;
+        height: 1418px;         
+        top: 300px;
+        left: 0;
+        z-index: -1;    
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        background-image: url('../images/back2.png');
+        width: 531px;
+        height: 796px;         
+        top: 1200px;
+        right: 0;            
+    }
 }
 

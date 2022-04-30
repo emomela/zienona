@@ -845,3 +845,7 @@ span.search-results { background-color: #e99d9d; border-radius: 10px; display: i
 .search-request-request { display: inline-block; padding: 10px 15px; background-color: #e99d9d; border-radius: 10px; font-weight: 700; font-size: 20px; letter-spacing: 2px; position: absolute; top: 30px; left: 0; }
 
 .products-page-search-result .search-list-name { width: 1510px; margin: 0 auto; }
+
+.products-page-search-result::after { content: ''; position: absolute; background-image: url("../images/back.png"); width: 1084px; height: 1418px; top: 300px; left: 0; z-index: -1; }
+
+.products-page-search-result::before { content: ''; position: absolute; background-image: url("../images/back2.png"); width: 531px; height: 796px; top: 1200px; right: 0; }
