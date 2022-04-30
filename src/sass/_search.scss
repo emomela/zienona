@@ -45,8 +45,7 @@
 .search-item {
   padding: 42px 0;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center;  
   
 
   .search-item-pic {
@@ -56,10 +55,10 @@
 
   .search-item-descr {
     width: 60%;
-    margin-left: -150px;
+    
   }
 
-  .search-item-price {
+  .search-item-price-box {
     width: 22%;
   }
 
@@ -89,14 +88,35 @@
   text-transform: uppercase;
 }
 
+.search-item-price-box {  
+  text-align: right;
+  margin-top: -5px;  
+}
+
 .search-item-price {
   font-size: 30px;
   font-weight: 900;
-  text-align: right;
-  position: relative;
+  text-align: right;  
   white-space: nowrap;
-  
+  display: inline-block;  
 }
+
+.search-item-oldprice {
+  white-space: nowrap;  
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration:line-through;
+  display: inline-block;
+  margin-right: 30px;   
+}
+
+.search-item-discount {
+  white-space: nowrap;       
+  font-size: 15px;
+  font-weight: 700;
+  color: #e99d9d;        
+}
+
 
 .search-request-request {
   display: inline-block;
@@ -111,29 +131,5 @@
   left: 0;
 }
 
-.search-item-price-box {
-  position: relative;
-  text-align: right;
-  margin-top: -10px;  
-}
 
-.search-item-oldprice {
-  white-space: nowrap;
-  position: absolute;
-  font-size: 15px;
-  font-weight: 400;
-  text-decoration:line-through;
-  top: 15px;
-  right: 140px;   
-}
-
-.search-icon-discount {
-  white-space: nowrap;
-        position: absolute;
-        font-size: 15px;
-        font-weight: 700;
-        color: #e99d9d;
-        top: 35px;
-        right: 0px;  
-}
 

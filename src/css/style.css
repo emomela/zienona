@@ -690,7 +690,7 @@ a:hover { text-decoration: none; }
 
 .cart-item-oldprice { white-space: nowrap; position: absolute; font-size: 15px; font-weight: 400; text-decoration: line-through; top: 15px; right: 155px; }
 
-.search-icon-discount { white-space: nowrap; position: absolute; font-size: 15px; font-weight: 700; color: #e99d9d; top: 35px; right: 0px; }
+.cart-item-discount { white-space: nowrap; position: absolute; font-size: 15px; font-weight: 700; color: #e99d9d; top: 35px; right: 0px; }
 
 .cart-item-delete { font-size: 12px; font-weight: 400; margin-right: 45px; position: relative; }
 
@@ -818,13 +818,13 @@ a:hover { text-decoration: none; }
 
 .search-item-img img { border-radius: 10px; }
 
-.search-item { padding: 42px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.search-item { padding: 42px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .search-item .search-item-pic { width: 18%; padding-right: 67px; }
 
-.search-item .search-item-descr { width: 60%; margin-left: -150px; }
+.search-item .search-item-descr { width: 60%; }
 
-.search-item .search-item-price { width: 22%; }
+.search-item .search-item-price-box { width: 22%; }
 
 .search-item:not(:last-child) { border-bottom: 1px solid #000; }
 
@@ -834,12 +834,12 @@ a:hover { text-decoration: none; }
 
 .search-item-category { font-weight: 700; font-size: 12px; text-transform: uppercase; }
 
-.search-item-price { font-size: 30px; font-weight: 900; text-align: right; position: relative; white-space: nowrap; }
+.search-item-price-box { text-align: right; margin-top: -5px; }
+
+.search-item-price { font-size: 30px; font-weight: 900; text-align: right; white-space: nowrap; display: inline-block; }
+
+.search-item-oldprice { white-space: nowrap; font-size: 15px; font-weight: 400; text-decoration: line-through; display: inline-block; margin-right: 30px; }
+
+.search-item-discount { white-space: nowrap; font-size: 15px; font-weight: 700; color: #e99d9d; }
 
 .search-request-request { display: inline-block; padding: 10px 15px; background-color: #e99d9d; border-radius: 10px; font-weight: 700; font-size: 20px; letter-spacing: 2px; position: absolute; top: 30px; left: 0; }
-
-.search-item-price-box { position: relative; text-align: right; margin-top: -10px; }
-
-.search-item-oldprice { white-space: nowrap; position: absolute; font-size: 15px; font-weight: 400; text-decoration: line-through; top: 15px; right: 140px; }
-
-.search-icon-discount { white-space: nowrap; position: absolute; font-size: 15px; font-weight: 700; color: #e99d9d; top: 35px; right: 0px; }
