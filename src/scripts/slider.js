@@ -95,9 +95,10 @@ var swiper4 = new Swiper(".swiper-popular", {
     slideChange(swiper) {
       const index = swiper.activeIndex
       const active = $(this.el).find('.swiper-slide').eq(index)
-
+      const info = active.find('.swiper-slide-info')
       const goods = $('.block-popular .main-slide .swiper-slide-info')
-      const title = active.find('.swiper-slide-link').html()
+
+      const title = info.find('.swiper-slide-link').html()
       const descr = active.find('.swiper-slide-descr').text()
       const btn = active.find('.swiper-slide-button').attr('href')
       const pic = active.find('.swiper-slide-pic img').attr('src')
@@ -136,15 +137,18 @@ var swiper5 = new Swiper(".swiper-news", {
 
     slideChange(swiper) {
       const index = swiper.activeIndex
-
       const active = $(this.el).find('.swiper-slide').eq(index)
       const goods = $('.block-news .main-slide .swiper-slide-info')
-      const title = active.find('.swiper-slide-link').html()
+      const info = active.find('.swiper-slide-info')
+
+      const title = info.find('.swiper-slide-link').html()
+
+      // const title = active.find('.swiper-slide-info .swiper-slide-link').html()
       const descr = active.find('.swiper-slide-descr').text()
       const btn = active.find('.swiper-slide-button').attr('href')
       const pic = active.find('.swiper-slide-pic img').attr('src')
 
-      goods.find('.swiper-slide-link').html(title)
+      goods.find('.swiper-slide-info .swiper-slide-link').html(title)
       goods.find('.swiper-slide-descr').text(descr)
       goods.find('.swiper-slide-button').attr('href',btn)
       $('.block-news .main-slide .swiper-slide-pic img').attr('src',pic)
@@ -238,3 +242,30 @@ $(document).on('mouseup',function(e){
     $('.langs-menu-current, .langs-menu-langs').removeClass('opened');
   }
 });
+
+
+function buildLangs() {
+  const original = $('.wrap-lng')
+  if (!original.length) return;
+
+  const menu = document.createElement('span')
+  menu.className = 'langs-menu'
+  const current = document.createElement('a');
+  current.className = 'langs-menu-current'
+  current.textContent = original.find('.current-lang').find('a').text()
+  menu.appendChild(current)
+  const langs = document.createElement('div')
+  langs.className = 'langs-menu-langs'
+
+  original.find('.lang-item').not('.current-lang').each(function(key,item){
+    const link = $(item).find('a')
+    link.addClass('langs-menu-lang') 
+    $(langs).append(link)
+    
+  })
+  menu.appendChild(langs)
+  original.before(menu)
+
+  original.remove()
+}
+buildLangs()

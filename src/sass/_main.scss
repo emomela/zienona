@@ -789,14 +789,11 @@
 
     .main-slide {
         position: absolute;
-        z-index: 99;
+        z-index: 2;
         top: 100px;
         left: 70px;
         display: flex;
 
-        .swiper-slide-pic {
-            margin-right: 90px;
-        }
 
         .swiper-slide-info {
             padding-top: 115px;
@@ -924,7 +921,6 @@
 
         .swiper-slide-info {
             padding-top: 115px;
-            margin-right: 90px;
             text-align: right;
 
             .swiper-slide-title {
@@ -969,7 +965,7 @@
         }
     }
     @media (max-width: 1180px) {
-        padding-top: 460px;
+        padding-top: 370px;
     }
     @media (max-width: 992px) {
         padding-top: 0px;
@@ -1001,7 +997,7 @@
 .swiper-news{
     position: relative;
     overflow: hidden;
-    margin-right: 560px;
+    margin-right: 450px;
     margin-left: -125px;      
 
     .swiper-slide-info {
