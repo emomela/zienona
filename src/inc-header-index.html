@@ -14,7 +14,7 @@
 <body>
     <div class="body-wrapper">
         <header class="header header-index">
-            <div class="header-inner">
+            <div class="container">
                 <div class="h-wrap">
                     <div class="h-left">
                         <div class="h-logo">
@@ -35,10 +35,24 @@
                         </nav>
                     </div>
                     <div class="h-right">
-                        <a href="#"><img src="./images/search.png" alt="search"></a>
+                        <div class="header-search-drop">
+                            <div class="header-search">
+                                <div class="search-field">
+                                    <input type="text" name="search" class="search-input" placeholder="Поиск по сайту">
+                                </div>
+                                <button type="button" class="header-search-btn">Искать</button>
+                            </div>
+                        </div>
+                        <a href="#" class="header-search-toggler"><img src="./images/search.png" alt="search"></a>
                         <a href="#"><img src="./images/basket.png" alt="basket"></a>
                         <a href="#"><img src="./images/profil.png" alt="profile"></a>
-                        <a href="#">Ru</a>
+                        <span class="langs-menu">
+                            <a href="javascript:void(0)" class="langs-menu-current">Ru</a>
+                            <div class="langs-menu-langs">
+                                <a href="#" class="langs-menu-lang">En</a>
+                                <a href="#" class="langs-menu-lang">Pl</a>
+                            </div>
+                        </span>
                     </div>
                 </div>
             </div>

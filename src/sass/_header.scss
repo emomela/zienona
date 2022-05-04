@@ -5,62 +5,59 @@
     z-index: 99;
 
     .h-wrap {        
-        width: 100%;
+        // width: 100%;
+        // padding-right: 115px;
+        // padding-left: 60px;
         display: flex;
         justify-content: space-between;                  
         align-items: center;
         padding-top: 35px;
-        padding-right: 115px;
-        padding-left: 60px;
         padding-bottom: 35px;
-
-        .h-left {
-            display: flex;
-
-            .h-logo {
-                 margin-right: 70px;
-            }
-
-            .h-nav {
-                 display: flex;
-                 align-items: center;
-
-                 ul {
-                     display: flex;
-                     align-items: center;
-                     li { 
-                        margin-right: 30px;         
-                        a {
-                            font-weight: 400;
-                            font-size: 18px;
-                            color: $black;
-                            cursor: pointer;
-                            
-                            &:hover {
-                                font-weight: 800;
-                            }
-                        }      
-                    
-                    }
-                }
-            }
-        }
-
-         .h-right {
-             display: flex;
-             align-items: center;
-
-            a {
-             margin-left: 25px;
-             color: $black;
-             font-size: 21px;
-             font-weight: 900;
-        }
     }
+}
+.h-left {
+    display: flex;
+}
 
+ .h-right {
+    position: relative;
+    display: flex;
+    align-items: center;
 
+    a {
+        margin-left: 25px;
+        color: $black;
+        font-size: 21px;
+        font-weight: 900;
     }
+}
+.h-logo {
+    margin-right: 70px;
+}
 
+.h-nav {
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        align-items: center;
+        
+        li { 
+           margin-right: 30px;         
+           a {
+               font-weight: 400;
+               font-size: 18px;
+               color: $black;
+               cursor: pointer;
+               
+               &:hover {
+                   font-weight: 800;
+               }
+           }      
+       
+       }
+   }
 }
 
 .header-pink {    
@@ -130,3 +127,196 @@
     
   }
 }
+
+.header-search {
+    width: 350px;
+
+    &-drop {
+        position: absolute;
+        right: 100%;
+        top: 50%;
+        transform: translate(10px,-50%);
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility .15s, opacity .15s, transform .15s;
+
+        &.opened {
+            opacity: 1;
+            visibility: visible;
+            transform: translate(0px,-50%);
+        }
+    }
+    &-toggler {
+        position: relative;
+
+        &.opened {
+            &:before,
+            &:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 50%;
+                margin-top: -1px;
+                height: 2px;
+                background: #000;
+            }
+            &:before {
+                transform: rotate(45deg);
+            }
+            &:after {
+                transform: rotate(-45deg);
+            }
+            img {
+                opacity: 0;
+            }
+        }
+    }
+
+    .search-field {
+        width: calc(100% - 140px);
+        margin-right: 10px;
+    }
+    .search-input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .h-logo {
+        margin-right: 50px;
+
+        img {
+            max-height: 80px;
+            width: auto;
+        }
+    }
+    .h-nav {
+        ul {
+            li {
+                margin-right: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .header .h-wrap {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .header .h-wrap {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .h-logo {
+        margin-right: 15px;
+
+        img {
+            max-height: 64px;
+        }
+    }
+    .h-right {
+        white-space: nowrap;
+
+        a {
+            margin-left: 18px;
+        }
+    }
+    .mm-toggler {
+        display: inline-block;
+        vertical-align: middle;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        cursor: pointer;
+        margin-left: 18px;
+
+        & > div {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 3px;
+            border-radius: 2px;
+            background: #000;
+            top: 50%;
+            margin-top: -1px;
+            margin-top: -1.5px;
+            transition: transform .15s;
+        }
+        .mm-line-1 {
+            transform: translate(0px,-7px);
+        }
+        .mm-line-3 {
+            transform: translate(0px,7px);
+        }
+        &.opened {
+            .mm-line-1,
+            .mm-line-3 {
+                transform: translate(0px,0px);
+            }
+        }
+    }
+
+    .h-nav {
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        top: 90px;
+        z-index: 99;
+        background: #FFF;
+        border-radius: 15px;
+        padding: 10px 0;
+        transform: translate(0px,10px);
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility .15s, opacity .15s, transform .15s;
+        
+        &.opened {
+            display: block;
+            transform: translate(0px,0px);
+            opacity: 1;
+            visibility: visible;
+        }
+
+        ul {
+            display: block;
+
+            li {
+                display: block;
+                margin-right: 0;
+            }
+            a {
+                display: block;
+                padding: 8px 20px;
+                font-weight: 700 !important;
+            }
+        }
+    }
+
+    .h-right {
+        position: static;
+    }
+
+    .header-search {
+        width: auto;
+        
+        &-drop {
+            left: 20px;
+            top: 90px;
+            right: 20px;
+            z-index: 99;
+            margin-right: 0;
+            transform: translate(0px,10px);
+
+            &.opened {
+                transform: translate(0px,0px);
+            }
+        }
+    }
+}
+
