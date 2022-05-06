@@ -142,13 +142,14 @@ var swiper5 = new Swiper(".swiper-news", {
       const info = active.find('.swiper-slide-info')
 
       const title = info.find('.swiper-slide-link').html()
+      console.log(title)
 
       // const title = active.find('.swiper-slide-info .swiper-slide-link').html()
       const descr = active.find('.swiper-slide-descr').text()
       const btn = active.find('.swiper-slide-button').attr('href')
       const pic = active.find('.swiper-slide-pic img').attr('src')
 
-      goods.find('.swiper-slide-info .swiper-slide-link').html(title)
+      goods.find('.swiper-slide-link').html(title)
       goods.find('.swiper-slide-descr').text(descr)
       goods.find('.swiper-slide-button').attr('href',btn)
       $('.block-news .main-slide .swiper-slide-pic img').attr('src',pic)
