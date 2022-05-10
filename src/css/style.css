@@ -496,13 +496,11 @@ a:hover { text-decoration: none; }
 
 .pr-card-descr { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.pr-card-name { margin-bottom: 50px; }
-
 .pr-card-title { font-weight: 900; font-size: 30px; text-transform: uppercase; }
 
 .pr-card-type { font-weight: 900; font-size: 30px; margin-bottom: 25px; }
 
-.pr-card-add { position: relative; font-weight: 300; font-size: 12px; }
+.pr-card-add { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; position: relative; font-weight: 300; font-size: 12px; margin-bottom: 50px; }
 
 .pr-card-add::before { content: ''; position: absolute; top: 37px; height: 2px; width: 120px; background-color: #000000; }
 
@@ -514,7 +512,7 @@ a:hover { text-decoration: none; }
 
 .pr-card-label::before { position: absolute; content: url("../images/star.png"); left: 0; margin-left: -40px; top: 0; }
 
-.pr-card-tag { position: absolute; right: 25px; top: 140px; display: block; padding: 13px 14px 13px 45px; white-space: nowrap; background-color: #8db396; font-size: 8px; font-weight: 700; color: #ffffff; border-radius: 11px; }
+.pr-card-tag { position: relative; display: block; padding: 13px 14px 13px 45px; white-space: nowrap; background-color: #8db396; font-size: 8px; font-weight: 700; color: #ffffff; border-radius: 11px; }
 
 .pr-card-tag::before { position: absolute; content: url("../images/slim-body.png"); left: 0; margin-left: 15px; top: 21%; }
 
@@ -536,7 +534,7 @@ a:hover { text-decoration: none; }
 
 .pr-card-store { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
 
-.pr-card-delivery { position: absolute; top: 110; right: -5px; font-size: 12px; font-weight: 300; }
+.pr-card-delivery { position: absolute; top: 110px; right: -5px; font-size: 12px; font-weight: 300; }
 
 .pr-card-delivery::before { content: url("../images/box.png"); position: absolute; left: 0; margin-left: -50px; top: -50%; }
 
