@@ -159,32 +159,33 @@ var swiper5 = new Swiper(".swiper-news", {
 
 
 var swiper6 = new Swiper(".op-slider", {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true,
+      pageUpDown: true,
+    },
+    
+    autoplay: {
+      delay: 6000,
+      stopOnLastSlide: false,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true
+    },
+
+    breakpoints: {
+      340: {
+        slidesPerView: 2,
+      },
+      576: {
+        slidesPerView: 3,
+      },
+      768: {
         slidesPerView: 4,
-        spaceBetween: 0,
-        
-        keyboard: {
-          enabled: true,
-          onlyInViewport: true,
-          pageUpDown: true,
-        },
-       
-        autoplay: {
-          delay: 6000,
-          stopOnLastSlide: false,
-          disableOnInteraction: false,
-        },
-
-        on: {
-    init() {
-      this.el.addEventListener('mouseenter', () => {
-        this.autoplay.stop();
-      });
-
-      this.el.addEventListener('mouseleave', () => {
-        this.autoplay.start();
-      });
+      }
     }
-  },
 });
 
 
@@ -195,8 +196,8 @@ var swiper7 = new Swiper(".pr-card-imgs", {
     clickable: true,          
   },
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.pr-card-imgs-next',
+    prevEl: '.pr-card-imgs-prev',
     
   },
 });

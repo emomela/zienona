@@ -409,7 +409,8 @@
     }
     .about-us-tab-items {
         white-space: nowrap;
-        overflow-x: auto;
+        // overflow-x: auto;
+        text-align: center;
         margin-bottom: 325px;
     }
     .about-us-social-links {
@@ -447,7 +448,7 @@
         padding-left: 0;
     }
     .about-us-tab-items {
-        margin-left: -15px;
+        margin-left: -20px;
         margin-right: -20px;
         margin-bottom: 310px;
         font-size: 0;
@@ -461,6 +462,26 @@
     }
     .about-us-left {
         top: 115px;
+    }
+}
+@media (max-width: 480px) {
+    .about-us-tab-item {
+        letter-spacing: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .about-us-block-title {
+        font-size: 28px;
+    }
+    .about-us-block-descr {
+        font-size: 20px;
+    }
+}
+@media (max-width: 380px) {
+    .about-us-tab-item {
+        letter-spacing: 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 .about-us-tab-items::-webkit-scrollbar {
@@ -771,6 +792,13 @@
         z-index: -1;
     }
 
+    @media (max-width: 576px) {
+        &::after {
+            width: 100%;
+            background-size: 120% auto;
+        }
+    }
+
     
     &-title {
         position: absolute;
@@ -882,7 +910,7 @@
         margin-right: -35px;
     }
     @media (max-width: 992px) {
-        margin-left: 15%;
+        margin-left: 50%;
     }
     @media (max-width: 768px) {
         margin-right: -20px;
@@ -1010,7 +1038,7 @@
         margin-left: -35px;
     }
     @media (max-width: 992px) {
-        margin-right: 15%;
+        margin-right: 50%;
     }
     @media (max-width: 768px) {
         margin-left: -20px;
