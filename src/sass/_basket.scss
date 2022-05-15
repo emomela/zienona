@@ -7,13 +7,12 @@
 .cart-items {
   padding-left: 40px;
   margin-bottom: 105px;
-  margin-right: 90px;
+  padding-right: 90px;
+  width: 64%;
 }
 
 .cart-item {
   display: flex;
-  height: 200px;
-  width: 896px;
   
   padding-top: 24px;
   padding-bottom: 24px;
@@ -28,16 +27,6 @@
     display: flex;
     align-items: center;
   }
-
-
-
-
-
-
-
-
-
-
 
    &-amount {
         display: inline-block;
@@ -148,7 +137,6 @@
   font-size: 12px;
   font-weight: 700;
   width: 100%;
-  display: flex;
   margin-bottom: 20px;
 }
 
@@ -214,9 +202,11 @@
     top: -5px;
   }
 }
-
+.checkout-cart-right {
+  width: 36%;
+}
 .cart-check {
-  width: 580px;
+  width: 100%;
   background-color: #f5f5f5;
   border-radius: 10px;
   padding-left: 60px;
@@ -267,4 +257,210 @@
       font-weight: 900; 
     }
   }
+}
+
+.basket-order-stages {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.order-step-circle {
+  background-color: #a1ae98;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;  
+}
+
+.order-step {
+  margin-right: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.order-step-next {  
+  opacity: 0.5;
+}
+
+.checkout-cart-name {
+  width: 64%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 55px;  
+  padding-right: 90px;
+  margin-bottom: 20px;
+}
+
+.checkout-cart-title {
+  display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  align-items: center;
+
+  .checkout-cart-span {
+    padding-left: 30px;    
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: lowercase;
+  }
+}
+
+.basket-thanks {
+  
+  width: 990px;
+  height: 960px;
+  margin: 0 auto;
+
+  
+  background-image: url("../images/thanks.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -350px;
+  margin-bottom: -230px;
+  
+  
+  padding-top: 400px;
+  text-align: center;
+  
+}
+
+.basket-thanks-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.basket-thanks-title::after {
+  content: '';  
+  background-color: black;  
+  height: 2px;  
+  display: block;  
+  position: absolute;  
+  top: 65px;  
+  left: 420px;
+  right: 420px;
+  
+}
+
+.basket-thanks-descr {
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.basket-payment {
+  width: 1195px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+
+  .row {
+    justify-content: space-between;
+  }
+
+  .checkout-cart-right {
+    width: 49%;
+  }
+
+  .basket-payment-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  .basket-payment-descr {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+
+}
+
+.payment-method {
+  padding-top: 40px;
+  width: 39%;
+
+  a {
+    color: #000000;
+    cursor: pointer;
+  }
+
+}
+
+.payment-method-bankcard {
+  height: 60px;
+  padding-left: 20px;
+  
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  img {
+    margin-right: 30px;
+    width: 50px;
+  }
+
+
+}
+
+.payment-method-blik{
+  height: 60px;
+  padding-left: 20px;
+  
+  border: 1px solid #000000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 30px;
+    width: 50px;
+  }
+
+}
+
+.payment-delivery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.payment-delivery-title {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
+.payment-delivery-price {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.card-details-popup {
+  width: 525px;
+  margin: 0 auto;
+  height: 470px;
+  padding-top: 45px;
+
+  background-image: url("../images/back13.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
 }
