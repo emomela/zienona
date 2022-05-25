@@ -2,323 +2,435 @@
 
 
 <main class="main">
-  <div class="account-page">
-    <div class="account-page-wrap">
-      <div class="account-page-tabs">
-        <div class="account-page-tab-items">
-          <a href="#tab_01" class="account-page-tab-item selected">Мои данные</a>
-          <a href="#tab_02" class="account-page-tab-item">Данные фактуры</a>
-          <a href="#tab_03" class="account-page-tab-item">Заказы</a>
+  <div class="container">
+    <div class="account-page">
+      <div class="account-page-wrap">
+        <div class="account-page-tabs">
+          <div class="account-page-tab-items">
+            <a href="#tab_01" class="account-page-tab-item selected">Мои данные</a>
+            <a href="#tab_02" class="account-page-tab-item">Данные фактуры</a>
+            <a href="#tab_03" class="account-page-tab-item">Заказы</a>
+          </div>
+
+          <div class="account-page-body acbody">
+            <div class="account-page-section account-page-data" id="tab_01">
+              <form action="#">
+                <div class="acbody-full-name-flex">
+
+                  <div class="acbody-field">
+                    <label for="name" class="acbody-label">Имя</label>
+                    <input type="text" name="name" class="acbody-input" placeholder="Имя">
+                  </div>
+
+
+                  <div class="acbody-field">
+                    <label for="surname" class="acbody-label">Фамилия</label>
+                    <input type="text" name="surname" class="acbody-input" placeholder="Фамилия">
+                  </div>
+
+
+
+                </div>
+                <div class="acbody-full-name-flex">
+                  <div class="acbody-field">
+                    <label for="telephone" class="acbody-label">Телефон</label>
+                    <input type="text" name="telephone" class="acbody-input" placeholder="Телефон">
+                  </div>
+                  <div class="acbody-field">
+                    <label for="email" class="acbody-label">E-mail</label>
+                    <input type="text" name="email" class="acbody-input" placeholder="E-mail">
+                  </div>
+
+                </div>
+                <div class="acbody-adress-flex">
+                  <div class="acbody-field">
+                    <label for="country" class="acbody-label">Страна</label>
+                    <input type="text" name="country" class="acbody-input" placeholder="Страна">
+                  </div>
+                  <div class="acbody-field">
+                    <label for="city" class="acbody-label">Город</label>
+                    <input type="text" name="city" class="acbody-input" placeholder="Город">
+                  </div>
+                </div>
+                <div class="acbody-adress-flex-bottom">
+                  <div class="acbody-field">
+                    <label for="street" class="acbody-label">Улица</label>
+                    <input type="text" name="street" class="acbody-input" placeholder="Улица">
+                  </div>
+                  <div class="acbody-adress-data">
+                    <div class="acbody-field">
+                      <label for="house" class="acbody-label">Дом</label>
+                      <input type="text" name="house" class="acbody-input" placeholder="Дом">
+                    </div>
+                    <div class="acbody-field">
+                      <label for="flat" class="acbody-label">Квартира</label>
+                      <input type="text" name="flat" class="acbody-input" placeholder="Квартира">
+                    </div>
+                    <div class="acbody-field">
+                      <label for="index" class="acbody-label">Индекс</label>
+                      <input type="text" name="index" class="acbody-input" placeholder="Индекс">
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="enter-page-btn-wrap">
+                  <a class="enter-page-btn" href="#">
+                    <div class="enter-page-btn-flex">
+                      изменить данные
+                    </div>
+                  </a>
+                </div>
+              </form>
+
+
+
+            </div>
+
+            <div class="account-page-section account-page-factura" id="tab_02">
+              <form action="#">
+                <div class="acbody-full-name-flex">
+                  <div class="acbody-company-name acbody-field">
+                    <label for="company-name" class="acbody-label">Название фирмы</label>
+                    <input type="text" name="company-name" class="acbody-input" placeholder="Название фирмы">
+                  </div>
+                  <div class="acbody-nip acbody-field">
+                    <label for="nip" class="acbody-label">NIP</label>
+                    <input type="text" name="nip" class="acbody-input" placeholder="NIP">
+                  </div>
+
+                </div>
+                <div class="acbody-full-name-flex">
+                  <div class="acbody-field">
+                    <label for="telephone" class="acbody-label">Телефон</label>
+                    <input type="text" name="telephone" class="acbody-input" placeholder="Телефон">
+                  </div>
+                  <div class="acbody-field">
+                    <label for="email" class="acbody-label">E-mail</label>
+                    <input type="text" name="email" class="acbody-input" placeholder="E-mail">
+                  </div>
+
+                </div>
+
+
+                <div class="acbody-adress-flex">
+                  <div class="acbody-field">
+                    <label for="country" class="acbody-label">Страна</label>
+                    <input type="text" name="country" class="acbody-input" placeholder="Страна">
+                  </div>
+                  <div class="acbody-field">
+                    <label for="city" class="acbody-label">Город</label>
+                    <input type="text" name="city" class="acbody-input" placeholder="Город">
+                  </div>
+                </div>
+                <div class="acbody-adress-flex-bottom">
+                  <div class="acbody-field">
+                    <label for="street" class="acbody-label">Улица</label>
+                    <input type="text" name="street" class="acbody-input" placeholder="Улица">
+                  </div>
+                  <div class="acbody-adress-data">
+                    <div class="acbody-field">
+                      <label for="house" class="acbody-label">Дом</label>
+                      <input type="text" name="house" class="acbody-input" placeholder="Дом">
+                    </div>
+                    <div class="acbody-field">
+                      <label for="flat" class="acbody-label">Квартира</label>
+                      <input type="text" name="flat" class="acbody-input" placeholder="Квартира">
+                    </div>
+                    <div class="acbody-field">
+                      <label for="index" class="acbody-label">Индекс</label>
+                      <input type="text" name="index" class="acbody-input" placeholder="Индекс">
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="enter-page-btn-wrap">
+                  <a class="enter-page-btn" href="#">
+                    <div class="enter-page-btn-flex">
+                      изменить данные
+                    </div>
+                  </a>
+                </div>
+              </form>
+            </div>
+
+
+
+            <div class="account-page-section" id="tab_03">
+
+              <div class="order-list">
+                <div class="order-list-wrap">
+
+                  <div class="order-list-topics">
+                    <div class="ol-icon"></div>
+                    <div class="ol-number ol-topic">ноМер заказа</div>
+                    <div class="ol-amount ol-topic">продуктЫ</div>
+                    <div class="ol-price ol-topic">Цена</div>
+                    <div class="ol-order-date ol-topic">Дата заказа</div>
+                    <div class="ol-due-date ol-topic">дата</div>
+                    <div class="ol-info"></div>
+                  </div>
+
+
+
+                  <div id="ordered-product_01" class="ol-ordered-product-current ">
+                    <div class="ol-ordered-flex-wrap">
+                      <div class="ol-flex-element ol-icon ol-icon-line">
+                        <div class="ol-icon-ordered ol-puzzle">
+                          <img src="./images/checkout.png" alt="">
+                        </div>
+                      </div>
+                      <div class="ol-flex-element ol-number">
+                        <div class=" ol-number-ordered ol-number-line ol-puzzle">Заказ 4560797</div>
+                      </div>
+                      <div class="ol-flex-element ol-amount">
+                        <div class=" ol-amount-ordered ol-amount-line ol-puzzle">2 продукта</div>
+                      </div>
+                      <div class="ol-flex-element ol-price">
+                        <div class=" ol-price-ordered ol-price-line ol-puzzle">30.00 zł</div>
+                      </div>
+                      <div class="ol-flex-element ol-order-date">
+                        <div class=" ol-order-date-ordered ol-order-date-line ol-puzzle">Оплачено.<br>
+                          Ожидайте доставку
+                        </div>
+                      </div>
+                      <div class="ol-flex-element ol-due-date">
+                        <div class=" ol-due-date-ordered ol-due-date-line ol-puzzle">Дата оплаты:<br>
+                          20.10.2022</div>
+                      </div>
+                      <div class="ol-flex-element ol-info">
+                        <div class=" ol-info-ordered ol-puzzle">
+                          Посмотреть всю <br>
+                          информацию о заказе
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="ol-ordered-special-active">
+                      <div class="ol-ordered-detail">
+                        <div class="ol-icon ol-icon-ordered"></div>
+                        <div class="ol-number ol-number-ordered ">
+                          <img src="./images/pic1.png" alt="" class="ol-small-pic">
+                        </div>
+                        <div class="ol-product-name">
+                          <div class="ol-product-title">Заголовок продукта</div>
+                          <div class="ol-product-descr">Kategoria: Ciało / Wszystkie</div>
+                        </div>
+                        <div class="ol-order-date ol-order-date-ordered ">15.00 zł</div>
+                        <div class="ol-due-date"></div>
+                        <div class="ol-info"></div>
+                      </div>
+
+                      <div class="ol-ordered-detail">
+                        <div class="ol-icon ol-icon-ordered"></div>
+                        <div class="ol-number ol-number-ordered">
+                          <img src="./images/pic1.png" alt="" class="ol-small-pic">
+                        </div>
+
+                        <div class="ol-product-name">
+                          <div class="ol-product-title">Заголовок продукта</div>
+                          <div class="ol-product-descr">Kategoria: Ciało / Wszystkie</div>
+                        </div>
+                        <div class="ol-order-date ol-order-date-ordered ">15.00 zł</div>
+                        <div class="ol-due-date"></div>
+                        <div class="ol-info"></div>
+                      </div>
+
+                      <div class="ol-ordered-delivery">
+                        <div class="ol-ordered-bottom"></div>
+                        <div class="ol-due-date">
+                          <a href="#" download>СКАЧАТЬ фактуру</a>
+                        </div>
+                        <div class="ol-info">ДОСТАВКА</div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                  <div id="ordered-product_02" class="ol-ordered-product">
+                    <div class="ol-ordered-flex-wrap">
+                      <div class="ol-flex-element ol-icon ol-icon-line">
+                        <div class="ol-icon-ordered ol-puzzle">
+                          <img src="./images/checkout.png" alt="">
+                        </div>
+                      </div>
+                      <div class="ol-flex-element ol-number">
+                        <div class=" ol-number-ordered ol-number-line ol-puzzle">Заказ 4560797</div>
+                      </div>
+                      <div class="ol-flex-element ol-amount">
+                        <div class=" ol-amount-ordered ol-amount-line ol-puzzle">2 продукта</div>
+                      </div>
+                      <div class="ol-flex-element ol-price">
+                        <div class=" ol-price-ordered ol-price-line ol-puzzle">30.00 zł</div>
+                      </div>
+                      <div class="ol-flex-element ol-order-date">
+                        <div class=" ol-order-date-ordered ol-order-date-line ol-puzzle">Оплачено.<br>
+                          Ожидайте доставку
+                        </div>
+                      </div>
+                      <div class="ol-flex-element ol-due-date">
+                        <div class=" ol-due-date-ordered ol-due-date-line ol-puzzle">Дата оплаты:<br>
+                          20.10.2022</div>
+                      </div>
+                      <div class="ol-flex-element ol-info">
+                        <div class=" ol-info-ordered ol-puzzle">
+                          Посмотреть всю <br>
+                          информацию о заказе
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="ol-ordered-special">
+                      <div class="ol-ordered-detail">
+                        <div class="ol-icon ol-icon-ordered"></div>
+                        <div class="ol-number ol-number-ordered ">
+                          <img src="./images/pic1.png" alt="" class="ol-small-pic">
+                        </div>
+                        <div class="ol-product-name">
+                          <div class="ol-product-title">Заголовок продукта</div>
+                          <div class="ol-product-descr">Kategoria: Ciało / Wszystkie</div>
+                        </div>
+                        <div class="ol-order-date ol-order-date-ordered ">15.00 zł</div>
+                        <div class="ol-due-date"></div>
+                        <div class="ol-info"></div>
+                      </div>
+
+                      <div class="ol-ordered-detail">
+                        <div class="ol-icon ol-icon-ordered"></div>
+                        <div class="ol-number ol-number-ordered">
+                          <img src="./images/pic1.png" alt="" class="ol-small-pic">
+                        </div>
+
+                        <div class="ol-product-name">
+                          <div class="ol-product-title">Заголовок продукта</div>
+                          <div class="ol-product-descr">Kategoria: Ciało / Wszystkie</div>
+                        </div>
+                        <div class="ol-order-date ol-order-date-ordered ">15.00 zł</div>
+                        <div class="ol-due-date"></div>
+                        <div class="ol-info"></div>
+                      </div>
+
+                      <div class="ol-ordered-delivery">
+                        <div class="ol-ordered-bottom"></div>
+                        <div class="ol-due-date">
+                          <a href="#" download>СКАЧАТЬ фактуру</a>
+                        </div>
+                        <div class="ol-info">ДОСТАВКА</div>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                  <div id="ordered-product_03" class="ol-ordered-product">
+                    <div class="ol-ordered-flex-wrap">
+                      <div class="ol-flex-element ol-icon ol-icon-line">
+                        <div class="ol-icon-ordered ol-puzzle">
+                          <img src="./images/checkout.png" alt="">
+                        </div>
+                      </div>
+                      <div class="ol-flex-element ol-number">
+                        <div class=" ol-number-ordered ol-number-line ol-puzzle">Заказ 4560797</div>
+                      </div>
+                      <div class="ol-flex-element ol-amount">
+                        <div class=" ol-amount-ordered ol-amount-line ol-puzzle">2 продукта</div>
+                      </div>
+                      <div class="ol-flex-element ol-price">
+                        <div class=" ol-price-ordered ol-price-line ol-puzzle">30.00 zł</div>
+                      </div>
+                      <div class="ol-flex-element ol-order-date">
+                        <div class=" ol-order-date-ordered ol-order-date-line ol-puzzle">Оплачено.<br>
+                          Ожидайте доставку
+                        </div>
+                      </div>
+                      <div class="ol-flex-element ol-due-date">
+                        <div class=" ol-due-date-ordered ol-due-date-line ol-puzzle">Дата оплаты:<br>
+                          20.10.2022</div>
+                      </div>
+                      <div class="ol-flex-element ol-info">
+                        <div class=" ol-info-ordered ol-puzzle">
+                          Посмотреть всю <br>
+                          информацию о заказе
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="ol-ordered-special">
+                      <div class="ol-ordered-detail">
+                        <div class="ol-icon ol-icon-ordered"></div>
+                        <div class="ol-number ol-number-ordered ">
+                          <img src="./images/pic1.png" alt="" class="ol-small-pic">
+                        </div>
+                        <div class="ol-product-name">
+                          <div class="ol-product-title">Заголовок продукта</div>
+                          <div class="ol-product-descr">Kategoria: Ciało / Wszystkie</div>
+                        </div>
+                        <div class="ol-order-date ol-order-date-ordered ">15.00 zł</div>
+                        <div class="ol-due-date"></div>
+                        <div class="ol-info"></div>
+                      </div>
+
+                      <div class="ol-ordered-detail">
+                        <div class="ol-icon ol-icon-ordered"></div>
+                        <div class="ol-number ol-number-ordered">
+                          <img src="./images/pic1.png" alt="" class="ol-small-pic">
+                        </div>
+
+                        <div class="ol-product-name">
+                          <div class="ol-product-title">Заголовок продукта</div>
+                          <div class="ol-product-descr">Kategoria: Ciało / Wszystkie</div>
+                        </div>
+                        <div class="ol-order-date ol-order-date-ordered ">15.00 zł</div>
+                        <div class="ol-due-date"></div>
+                        <div class="ol-info"></div>
+                      </div>
+
+                      <div class="ol-ordered-delivery">
+                        <div class="ol-ordered-bottom"></div>
+                        <div class="ol-due-date">
+                          <a href="#" download>СКАЧАТЬ фактуру</a>
+                        </div>
+                        <div class="ol-info">ДОСТАВКА</div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="catalog-pgn">
+                  <div class="pgn-links">
+                    <a href="#" class="pgn-link pgn-link-arrow pgn-link-left">
+                      <img src="./images/black-arrow-left.png" alt="arrow-left">
+                    </a>
+                    <a href="#" class="pgn-link">01</a>
+                    <span class="pgn-link-current">02</span>
+                    <a href="#" class="pgn-link">03</a>
+                    <a href="#" class="pgn-link">04</a>
+                    <a href="#" class="pgn-link">...</a>
+                    <a href="#" class="pgn-link pgn-link-arrow pgn-link-right">
+                      <img src="./images/black-arrow-right.png" alt="arrow-right">
+                    </a>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+
+            </div>
+          </div>
         </div>
 
-        <div class="account-page-body acbody">
-          <div class="account-page-section account-page-data" id="tab_01">
-            <div class="acbody-full-name-flex">
-              <div class="acbody-name acbody-field">
-                <label for="name" class="acbody-label">Имя</label>
-                <input type="text" name="name" class="acbody-input" placeholder="Имя">
-              </div>
-              <div class="acbody-surname acbody-field">
-                <label for="surname" class="acbody-label">Фамилия</label>
-                <input type="text" name="surname" class="acbody-input" placeholder="Фамилия">
-              </div>
 
-            </div>
-            <div class="acbody-full-name-flex">
-              <div class="acbody-telephone acbody-field">
-                <label for="telephone" class="acbody-label">Телефон</label>
-                <input type="text" name="telephone" class="acbody-input" placeholder="Телефон">
-              </div>
-              <div class="acbody-email acbody-field">
-                <label for="email" class="acbody-label">E-mail</label>
-                <input type="text" name="email" class="acbody-input" placeholder="E-mail">
-              </div>
-
-            </div>
-
-            <div class="acbody-adress">
-              <div class="acbody-adress-flex">
-                <div class="acbody-country acbody-field">
-                  <label for="country" class="acbody-label">Страна</label>
-                  <input type="text" name="country" class="acbody-input" placeholder="Страна">
-                </div>
-                <div class="acbody-city acbody-field">
-                  <label for="city" class="acbody-label">Город</label>
-                  <input type="text" name="city" class="acbody-input" placeholder="Город">
-                </div>
-              </div>
-              <div class="acbody-adress-flex-bottom">
-                <div class="acbody-street acbody-field">
-                  <label for="street" class="acbody-label">Улица</label>
-                  <input type="text" name="street" class="acbody-input" placeholder="Улица">
-                </div>
-                <div class="acbody-adress-data">
-                  <div class="acbody-house acbody-field">
-                    <label for="house" class="acbody-label">Дом</label>
-                    <input type="text" name="house" class="acbody-input" placeholder="Дом">
-                  </div>
-                  <div class="acbody-flat acbody-field">
-                    <label for="flat" class="acbody-label">Квартира</label>
-                    <input type="text" name="flat" class="acbody-input" placeholder="Квартира">
-                  </div>
-                  <div class="acbody-index acbody-field">
-                    <label for="index" class="acbody-label">Индекс</label>
-                    <input type="text" name="index" class="acbody-input" placeholder="Индекс">
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="enter-page-btn-wrap">
-              <a class="enter-page-btn" href="#">
-                <div class="enter-page-btn-flex">
-                  изменить данные
-                </div>
-              </a>
-            </div>
-
-
-
-          </div>
-
-          <div class="account-page-section account-page-factura" id="tab_02">
-            <div class="acbody-full-name-flex">
-              <div class="acbody-company-name acbody-field">
-                <label for="company-name" class="acbody-label">Название фирмы</label>
-                <input type="text" name="company-name" class="acbody-input" placeholder="Название фирмы">
-              </div>
-              <div class="acbody-nip acbody-field">
-                <label for="nip" class="acbody-label">NIP</label>
-                <input type="text" name="nip" class="acbody-input" placeholder="NIP">
-              </div>
-
-            </div>
-            <div class="acbody-full-name-flex">
-              <div class="acbody-telephone acbody-field">
-                <label for="telephone" class="acbody-label">Телефон</label>
-                <input type="text" name="telephone" class="acbody-input" placeholder="Телефон">
-              </div>
-              <div class="acbody-email acbody-field">
-                <label for="email" class="acbody-label">E-mail</label>
-                <input type="text" name="email" class="acbody-input" placeholder="E-mail">
-              </div>
-
-            </div>
-
-            <div class="acbody-adress">
-              <div class="acbody-adress-flex">
-                <div class="acbody-country acbody-field">
-                  <label for="country" class="acbody-label">Страна</label>
-                  <input type="text" name="country" class="acbody-input" placeholder="Страна">
-                </div>
-                <div class="acbody-city acbody-field">
-                  <label for="city" class="acbody-label">Город</label>
-                  <input type="text" name="city" class="acbody-input" placeholder="Город">
-                </div>
-              </div>
-              <div class="acbody-adress-flex-bottom">
-                <div class="acbody-street acbody-field">
-                  <label for="street" class="acbody-label">Улица</label>
-                  <input type="text" name="street" class="acbody-input" placeholder="Улица">
-                </div>
-                <div class="acbody-adress-data">
-                  <div class="acbody-house acbody-field">
-                    <label for="house" class="acbody-label">Дом</label>
-                    <input type="text" name="house" class="acbody-input" placeholder="Дом">
-                  </div>
-                  <div class="acbody-flat acbody-field">
-                    <label for="flat" class="acbody-label">Квартира</label>
-                    <input type="text" name="flat" class="acbody-input" placeholder="Квартира">
-                  </div>
-                  <div class="acbody-index acbody-field">
-                    <label for="index" class="acbody-label">Индекс</label>
-                    <input type="text" name="index" class="acbody-input" placeholder="Индекс">
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="enter-page-btn-wrap">
-              <a class="enter-page-btn" href="#">
-                <div class="enter-page-btn-flex">
-                  изменить данные
-                </div>
-              </a>
-            </div>
-
-
-
-          </div>
-
-          <div class="account-page-section" id="tab_03">
-
-            <div class="order-list">
-              <div class="order-list-topics">
-                <div class="ol-icon"></div>
-                <div class="ol-number ol-topic">ноМер заказа</div>
-                <div class="ol-amount ol-topic">продуктЫ</div>
-                <div class="ol-price ol-topic">Цена</div>
-                <div class="ol-order-date ol-topic">Дата заказа</div>
-                <div class="ol-due-date ol-topic">дата</div>
-                <div class="ol-info"></div>
-              </div>
-
-              <section class="ol-ordered-product-current">
-                <div class="ol-ordered-product-wrap">
-                  <div class="ol-icon ol-icon-ordered ">
-                    <img src="./images/checkout.png" alt="">
-                  </div>
-                  <div class="ol-number ol-number-ordered ">Заказ 4560797</div>
-                  <div class="ol-amount ol-amount-ordered ">2 продукта</div>
-                  <div class="ol-price ol-price-ordered ">30.00 zł</div>
-                  <div class="ol-order-date ol-order-date-ordered">Оплачено. <br>
-                    Ожидайте доставку</div>
-                  <div class="ol-due-date ol-due-date-ordered ">Дата оплаты:<br>
-                    20.10.2022</div>
-                  <div class="ol-info ol-info-ordered">
-                    Посмотреть всю <br>
-                    информацию о заказе
-                  </div>
-                </div>
-                <div class="ol-ordered-detail">
-
-                  <div class="ol-icon ol-icon-ordered "></div>
-                  <div class="ol-number ol-number-ordered">
-                    <img src="./images/pic1.png" alt="" class="ol-small-pic">
-                  </div>
-                  <div class="ol-product-name">
-                    <div class="ol-product-title">Заголовок продукта</div>
-                    <div class="ol-product-descr">Kategoria: Ciało / Wszystkie</div>
-                  </div>
-                  <div class="ol-order-date ol-order-date-ordered ">15.00 zł</div>
-                  <div class="ol-due-date"></div>
-                  <div class="ol-info"></div>
-
-                </div>
-                <div class="ol-ordered-detail">
-
-                  <div class="ol-icon ol-icon-ordered"></div>
-                  <div class="ol-number ol-number-ordered">
-                    <img src="./images/pic1.png" alt="" class="ol-small-pic">
-                  </div>
-                  <div class="ol-product-name">
-                    <div class="ol-product-title">Заголовок продукта</div>
-                    <div class="ol-product-descr">Kategoria: Ciało / Wszystkie</div>
-                  </div>
-                  <div class="ol-order-date ol-order-date-ordered ">15.00 zł</div>
-                  <div class="ol-due-date"></div>
-                  <div class="ol-info"></div>
-
-                </div>
-                <div class="ol-ordered-delivery">
-                  <div class="ol-ordered-bottom"></div>
-                  <div class="ol-due-date">
-                    <a href="#" download>СКАЧАТЬ фактуру</a>
-                  </div>
-                  <div class="ol-info">ДОСТАВКА</div>
-
-                </div>
-
-              </section>
-              <section class="ol-ordered-product">
-
-                <div class="ol-icon ol-icon-ordered ">
-                  <img src="./images/checkout.png" alt="">
-                </div>
-                <div class="ol-number ol-number-ordered">Заказ 4560797</div>
-                <div class="ol-amount ol-amount-ordered ">2 продукта</div>
-                <div class="ol-price ol-price-ordered ">30.00 zł</div>
-                <div class="ol-order-date ol-order-date-ordered ">Оплачено. <br>
-                  Ожидайте доставку</div>
-                <div class="ol-due-date ol-due-date-ordered">Дата оплаты:<br>
-                  20.10.2022</div>
-                <div class="ol-info ol-info-ordered">
-                  Посмотреть всю <br>
-                  информацию о заказе
-                </div>
-              </section>
-              <section class="ol-ordered-product">
-
-                <div class="ol-icon ol-icon-ordered ">
-                  <img src="./images/checkout.png" alt="">
-                </div>
-                <div class="ol-number ol-number-ordered ">Заказ 4560797</div>
-                <div class="ol-amount ol-amount-ordered">2 продукта</div>
-                <div class="ol-price ol-price-ordered ">30.00 zł</div>
-                <div class="ol-order-date ol-order-date-ordered ">Оплачено. <br>
-                  Ожидайте доставку</div>
-                <div class="ol-due-date ol-due-date-ordered ">Дата оплаты:<br>
-                  20.10.2022</div>
-                <div class="ol-info ol-info-ordered ">
-                  Посмотреть всю <br>
-                  информацию о заказе
-                </div>
-              </section>
-              <section class="ol-ordered-product">
-
-                <div class="ol-icon ol-icon-ordered ">
-                  <img src="./images/checkout.png" alt="">
-                </div>
-                <div class="ol-number ol-number-ordered ">Заказ 4560797</div>
-                <div class="ol-amount ol-amount-ordered ">2 продукта</div>
-                <div class="ol-price ol-price-ordered ">30.00 zł</div>
-                <div class="ol-order-date ol-order-date-ordered ">Оплачено. <br>
-                  Ожидайте доставку</div>
-                <div class="ol-due-date ol-due-date-ordered ">Дата оплаты:<br>
-                  20.10.2022</div>
-                <div class="ol-info ol-info-ordered ">
-                  Посмотреть всю <br>
-                  информацию о заказе
-                </div>
-              </section>
-              <section class="ol-ordered-product">
-
-                <div class="ol-icon ol-icon-ordered ">
-                  <img src="./images/checkout.png" alt="">
-                </div>
-                <div class="ol-number ol-number-ordered ">Заказ 4560797</div>
-                <div class="ol-amount ol-amount-ordered ">2 продукта</div>
-                <div class="ol-price ol-price-ordered ">30.00 zł</div>
-                <div class="ol-order-date ol-order-date-ordered ">Оплачено. <br>
-                  Ожидайте доставку</div>
-                <div class="ol-due-date ol-due-date-ordered">Дата оплаты:<br>
-                  20.10.2022</div>
-                <div class="ol-info ol-info-ordered ">
-                  Посмотреть всю <br>
-                  информацию о заказе
-                </div>
-              </section>
-
-              <div class="catalog-pgn">
-                <div class="pgn-links">
-                  <a href="#" class="pgn-link pgn-link-arrow pgn-link-left">
-                    <img src="./images/black-arrow-left.png" alt="arrow-left">
-                  </a>
-                  <a href="#" class="pgn-link">01</a>
-                  <span class="pgn-link-current">02</span>
-                  <a href="#" class="pgn-link">03</a>
-                  <a href="#" class="pgn-link">04</a>
-                  <a href="#" class="pgn-link">...</a>
-                  <a href="#" class="pgn-link pgn-link-arrow pgn-link-right">
-                    <img src="./images/black-arrow-right.png" alt="arrow-right">
-                  </a>
-
-                </div>
-              </div>
-
-            </div>
-
-
-
-          </div>
-        </div>
       </div>
-
-
     </div>
-
   </div>
 
 </main>

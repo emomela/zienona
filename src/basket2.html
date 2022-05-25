@@ -1,0 +1,340 @@
+<!--#include file="inc-header-pink.html"-->
+
+
+<main class="main">
+  <div class="basket-page-wrap">
+    <div class="container">
+
+
+
+      <div class="basket-stages-wrap">
+        <div class="basket-order-stages">
+          <div class="order-step1 order-step">
+            <div class="order-step-circle">1</div>Товары
+          </div>
+          <div class="order-step2 order-step order-step-active ">
+            <div class="order-step-circle">2</div>Доставка
+          </div>
+          <div class="order-step3 order-step ">
+            <div class="order-step-circle">3</div>Оплата
+          </div>
+          <div class="order-step4 order-step ">
+            <div class="order-step-circle">4</div>Ожидайте ваш заказ
+          </div>
+        </div>
+      </div>
+
+      <div class="delivery-page">
+
+        <div class="dp-title">Доставка
+        </div>
+        <div class="dp-descr">Выбери спосоБ доставки</div>
+
+
+        <a href="#" class="dp-delete"><span>
+            Очистить всю корзину</span>
+          <img src="./images/delete.png" alt="delete">
+        </a>
+
+        <div class="dp-tabs">
+          <div class="dp-tab-items">
+            <a href="#tab_01" class="dp-tab-link">
+              <div class="dp-choice">
+                <div class="dp-choice-title">Пачкомат Inpost</div>
+                <div class="dp-choice-term">1-3 рабочих дня</div>
+
+                <div class="dp-choice-cost">8,99 zł</div>
+              </div>
+            </a>
+            <a href="#tab_02" class="dp-tab-link">
+              <div class="dp-choice">
+                <div class="dp-choice-title">Курьер inpost</div>
+                <div class="dp-choice-term">3-5 рабочих дней</div>
+
+                <div class="dp-choice-cost">12,99 zł</div>
+              </div>
+            </a>
+
+
+
+          </div>
+
+          <div class="dp-tab-body">
+            <div class="tb-tab-data" id="tab_01">
+              <form action="#">
+                <div class="dp-fields">
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Имя">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Фамилия">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Страна">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Город">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Улица">
+                  </div>
+
+
+                  <div class="dp-field dp-15">
+                    <input type="text" class="dp-input" placeholder="Дом">
+                  </div>
+
+                  <div class="dp-field dp-15">
+                    <input type="text" class="dp-input" placeholder="Квартира">
+                  </div>
+
+                  <div class="dp-field dp-20">
+                    <input type="text" class="dp-input" placeholder="Индекс">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Телефон">
+                  </div>
+
+                </div>
+
+                <div class="dp-points">
+
+                  <div class="dp-title">Punkty odbioru (płatne z góry)</div>
+                  <div class="dp-search">
+                    <div class="dp-field">
+                      <input type="text" name="name" class="dp-input" placeholder="Warszawa, Powstańców Śląskich 72">
+                    </div>
+                    <div class="dp-search-button">
+                      <span><img src="./images/search-icon.png" alt="search-icon">
+                        искать</span>
+                    </div>
+                  </div>
+                  <div class="dp-map" id="map">
+
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAF3D3vHU-XqyVwzDHrT3NetdS1xhiwzKo">
+                    </script>
+                    </script>
+
+                  </div>
+
+
+                </div>
+
+
+                <div class="ui-radio">
+                  <input type="checkbox" id="faktura2" value="faktura2" class="ui-radio-input">
+                  <label for="faktura2" class="ui-radio-label">Получить фактуру</label>
+                </div>
+
+
+                <div class="dp-factura-block">
+                  <div class="dp-fields">
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Название фирмы">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Нип">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Страна">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Город">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Улица">
+                    </div>
+
+
+                    <div class="dp-field dp-15">
+                      <input type="text" class="dp-input" placeholder="Дом">
+                    </div>
+
+                    <div class="dp-field dp-15">
+                      <input type="text" class="dp-input" placeholder="Квартира">
+                    </div>
+
+                    <div class="dp-field dp-20">
+                      <input type="text" class="dp-input" placeholder="Индекс">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Телефон">
+                    </div>
+                  </div>
+
+                </div>
+                <div class="ui-radio dp-agree">
+                  <input type="checkbox" id="agreement2" value="agreement2" class="ui-radio-input">
+                  <label for="agreement2" class="ui-radio-label">Текст на обработку данных</label>
+                </div>
+
+                <a href="#" class="dp-buy-button">купить</a>
+
+
+
+
+
+
+              </form>
+            </div>
+
+
+
+
+
+
+            <div class="tb-tab-data" id="tab_02">
+              <form action="#">
+                <div class="dp-fields">
+
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Имя">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Фамилия">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Страна">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Город">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Улица">
+                  </div>
+
+
+                  <div class="dp-field dp-15">
+                    <input type="text" class="dp-input" placeholder="Дом">
+                  </div>
+
+                  <div class="dp-field dp-15">
+                    <input type="text" class="dp-input" placeholder="Квартира">
+                  </div>
+
+                  <div class="dp-field dp-20">
+                    <input type="text" class="dp-input" placeholder="Индекс">
+                  </div>
+
+                  <div class="dp-field dp-50">
+                    <input type="text" class="dp-input" placeholder="Телефон">
+                  </div>
+
+                </div>
+                <div class="ui-radio">
+                  <input type="checkbox" id="faktura3" value="faktura2" class="ui-radio-input">
+                  <label for="faktura3" class="ui-radio-label">Получить фактуру</label>
+                </div>
+
+                <div class="dp-factura-block">
+                  <div class="dp-fields">
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Название фирмы">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Нип">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Страна">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Город">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Улица">
+                    </div>
+
+
+                    <div class="dp-field dp-15">
+                      <input type="text" class="dp-input" placeholder="Дом">
+                    </div>
+
+                    <div class="dp-field dp-15">
+                      <input type="text" class="dp-input" placeholder="Квартира">
+                    </div>
+
+                    <div class="dp-field dp-20">
+                      <input type="text" class="dp-input" placeholder="Индекс">
+                    </div>
+
+                    <div class="dp-field dp-50">
+                      <input type="text" class="dp-input" placeholder="Телефон">
+                    </div>
+                  </div>
+
+                </div>
+                <div class="ui-radio dp-agree">
+                  <input type="checkbox" id="agreement2" value="agreement2" class="ui-radio-input">
+                  <label for="agreement2" class="ui-radio-label">Текст на обработку данных</label>
+                </div>
+
+                <a href="#" class="dp-buy-button">купить</a>
+
+
+
+              </form>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--#include file="inc-footer.html"-->

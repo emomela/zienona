@@ -37,3 +37,9 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
   $('.account-page-tab-items a').Tabs(); 
 });
+
+
+jQuery(document).ready(function($){
+  $('.dp-tab-items a').Tabs(); 
+});
+
