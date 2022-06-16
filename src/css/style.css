@@ -1162,6 +1162,8 @@ a:hover { text-decoration: none; }
   .ol-ordered-product .ol-order-date { width: 30%; }
   .account-page-data { width: 100%; }
   .account-page-factura { width: 100%; }
+  .acbody-adress-flex-bottom { margin-bottom: 20px; }
+  .enter-page-btn-wrap .enter-page-btn { margin-bottom: 20px; }
   .account-page-tab-item { width: 100%; margin-bottom: 10px; }
   .account-page-tab-items { width: 100%; -ms-flex-wrap: wrap; flex-wrap: wrap; padding-right: 10px; padding-left: 10px; margin-bottom: 10px; }
   .account-page-tab-item.selected::before { background-color: #fff; display: none; }
