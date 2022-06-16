@@ -28,7 +28,7 @@ $ (function () {
 $(function() {
   var $speed = 200; 
   var $class = 'ol-ordered-product';
-  var $class_open = '.ol-ordered-special-active';
+  var $class_descr = '.ol-ordered-special-active';
   var $class_bg = '.ol-ordered-product-current';
   var $class_hid = '.ol-ordered-special';
 
@@ -36,20 +36,25 @@ $(function() {
   $(document).ready(function() {
      $('.ol-info').on('click', function() {
        $ul = $(this).closest('ul');
-       $answer = $(this).closest('li').find($class_open);
+       $answer = $(this).closest('li').find(".ol-ordered-product");
        
-       if( !$(this).closest('li').hasClass($class) ) {
+       if( !$(this).closest('li').hasClass("ol-ordered-product") ) {
        
          $ul.find('li').each(function() {
-           if( $(this).hasClass($class) )
-             $(this).removeClass($class).find($class_open).slideUp($speed);
+           if( $(this).hasClass("ol-ordered-product") )
+             $(this).removeClass("ol-ordered-product")
+             $(this).addClass("ol-ordered-product-current");
+
+          
          });
        }
+
+       
        
        $answer
-         .slideToggle($speed)
+         
          .closest('li')
-         .toggleClass($class);
+         .toggleClass("ol-ordered-product-current");
      });
   });
 });

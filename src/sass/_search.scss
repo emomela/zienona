@@ -159,3 +159,14 @@ span.search-results {
     }
 }
 
+.products-page-search-result {
+  max-width: 1920px; padding-left: 115px; padding-right: 115px; margin: 0 auto;
+}
+
+@media (max-width: 1600px) { .products-page-search-result  { padding-left: 80px; padding-right: 80px; } }
+
+@media (max-width: 1366px) { .products-page-search-result  { padding-left: 50px; padding-right: 50px; } }
+
+@media (max-width: 1180px) { .products-page-search-result  { padding-left: 35px; padding-right: 35px; } }
+
+@media (max-width: 768px) { .products-page-search-result  { padding-left: 20px; padding-right: 20px; } }
